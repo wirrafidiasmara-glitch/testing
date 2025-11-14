@@ -78,7 +78,7 @@ variable.put('userInput', userInput)
 
 variable.put('proxyInformation', proxyInformation)
 
-RequestObject request = findTestObject('Outgoing/4.20. Proxy Alias Porting - Gagal Porting Proxy Alias ID ke Partisipan Baru - Invalid format', 
+RequestObject request = findTestObject('null', 
     variable)
 
 def response = WS.sendRequest(request)

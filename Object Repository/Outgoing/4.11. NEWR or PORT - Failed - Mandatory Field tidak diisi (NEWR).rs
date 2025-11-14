@@ -3,7 +3,7 @@
    <description></description>
    <name>4.11. NEWR or PORT - Failed - Mandatory Field tidak diisi (NEWR)</name>
    <tag></tag>
-   <elementGuidId>61a96b11-aa3c-4398-98ae-bc68dd823bf6</elementGuidId>
+   <elementGuidId>70f5d0ea-f57f-4ef7-8113-4a75ac3c0ac6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;proxyManagementRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;cid\&quot;: \&quot;${cid}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;proxyOperationType\&quot;: \&quot;${proxyOperationType}\&quot;,\n        \&quot;proxyType\&quot;: \&quot;${proxyType}\&quot;,\n        \&quot;proxyAlias\&quot;: \&quot;${proxyAlias}\&quot;,\n        \&quot;customerAccountNumber\&quot;: \&quot;${customerAccountNumber}\&quot;,\n        \&quot;otpCode\&quot;: \&quot;${otpCode}\&quot;,\n        \&quot;otpMessage\&quot;: \&quot;${otpMessage}\&quot;,\n        \&quot;branchCode\&quot;: \&quot;${branchCode}\&quot;,\n        \&quot;branchInput\&quot;: \&quot;${branchInput}\&quot;,\n        \&quot;accountIdentifier\&quot;: \&quot;${accountIdentifier}\&quot;,\n        \&quot;customerType\&quot;: \&quot;${customerType}\&quot;,\n        \&quot;customerResidentStatus\&quot;: \&quot;${customerResidentStatus}\&quot;,\n        \&quot;customerCityCode\&quot;: \&quot;${customerCityCode}\&quot;,\n        \&quot;customerAccountType\&quot;: \&quot;${customerAccountType}\&quot;,\n        \&quot;customerAccountName\&quot;: \&quot;${customerAccountName}\&quot;,\n        \&quot;customerSecondaryType\&quot;: \&quot;${customerSecondaryType}\&quot;,\n        \&quot;customerSecondaryValue\&quot;: \&quot;${customerSecondaryValue}\&quot;,\n        \&quot;customerCurrency\&quot;: \&quot;${customerCurrency}\&quot;,\n        \&quot;cifNumber\&quot;: \&quot;${cifNumber}\&quot;,\n        \&quot;displayName\&quot;: \&quot;${displayName}\&quot;,\n        \&quot;userInput\&quot;: \&quot;${userInput}\&quot;,\n        \&quot;proxyInformation\&quot;: \&quot;${proxyInformation}\&quot;\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;proxyManagementRequest\&quot;: {\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;proxyOperationType\&quot;: \&quot;${proxyOperationType}\&quot;,\n        \&quot;proxyType\&quot;: \&quot;${proxyType}\&quot;,\n        \&quot;proxyAlias\&quot;: \&quot;${proxyAlias}\&quot;,\n        \&quot;customerAccountNumber\&quot;: \&quot;${customerAccountNumber}\&quot;,\n        \&quot;otpCode\&quot;: \&quot;${otpCode}\&quot;,\n        \&quot;otpMessage\&quot;: \&quot;${otpMessage}\&quot;,\n        \&quot;branchCode\&quot;: \&quot;${branchCode}\&quot;,\n        \&quot;branchInput\&quot;: \&quot;${branchInput}\&quot;,\n        \&quot;registrationId\&quot;: \&quot;${registrationId}\&quot;\n        \&quot;accountIdentifier\&quot;: \&quot;${accountIdentifier}\&quot;,\n        \&quot;customerType\&quot;: \&quot;${customerType}\&quot;,\n        \&quot;customerResidentStatus\&quot;: \&quot;${customerResidentStatus}\&quot;,\n        \&quot;customerCityCode\&quot;: \&quot;${customerCityCode}\&quot;,\n        \&quot;customerAccountType\&quot;: \&quot;${customerAccountType}\&quot;,\n        \&quot;customerAccountName\&quot;: \&quot;${customerAccountName}\&quot;,\n        \&quot;customerSecondaryType\&quot;: \&quot;${customerSecondaryType}\&quot;,\n        \&quot;customerSecondaryValue\&quot;: \&quot;${customerSecondaryValue}\&quot;,\n        \&quot;customerCurrency\&quot;: \&quot;${customerCurrency}\&quot;,\n        \&quot;cifNumber\&quot;: \&quot;${cifNumber}\&quot;,\n        \&quot;displayName\&quot;: \&quot;${displayName}\&quot;,\n        \&quot;proxyInformation\&quot;: \&quot;${proxyInformation}\&quot;\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -30,15 +30,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic QWRtaW5pc3RyYXRvcjptYW5hZ2U=</value>
-      <webElementGuid>f609979e-72a8-4ae1-95a0-4f77d20b77b3</webElementGuid>
+      <value>Basic dXNlcmNoYW5uZWw6dXNlcmNoYW5uZWwxMjM=</value>
+      <webElementGuid>1cb8b82a-c9e4-45f3-8551-22aeebd34679</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${url}/KomiBifastOriginProxy.interfaces:proxyManagement</restUrl>
+   <restUrl>http://184.169.41.163:5555/invoke/KomiBifastOriginProxy.interfaces:proxyManagement</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -50,13 +50,6 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>04b005d1-8de3-4442-84ba-b2f2f35852bb</id>
-      <masked>false</masked>
-      <name>Authorization</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>79178c2e-b1d2-4f43-88ac-a3f0b9358cb6</id>
       <masked>false</masked>
       <name>Content_Type</name>
@@ -64,23 +57,23 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>63b7792d-2ace-4a16-8411-3b7dbded0a89</id>
+      <id>371e9356-8347-4fbc-b942-09c86e9658b2</id>
       <masked>false</masked>
-      <name>transactionId</name>
+      <name>channelType</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>7fd7b876-11a1-4984-9fc7-3a97c86ab75a</id>
       <masked>false</masked>
-      <name>cid</name>
+      <name>institutionBic</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>371e9356-8347-4fbc-b942-09c86e9658b2</id>
+      <id>63b7792d-2ace-4a16-8411-3b7dbded0a89</id>
       <masked>false</masked>
-      <name>channelType</name>
+      <name>transactionId</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -144,6 +137,13 @@
       <id>2a977e0f-52dd-4c70-a51e-6d24f9f4bbb3</id>
       <masked>false</masked>
       <name>branchInput</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>19362c18-209f-4ece-b303-3ee97cd689ee</id>
+      <masked>false</masked>
+      <name>registrationId</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -225,23 +225,9 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>412ea6fd-ef34-4458-b7d2-92ae9ab853a2</id>
-      <masked>false</masked>
-      <name>userInput</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>35ed7522-4988-4da6-a8fe-bc32b55e09aa</id>
       <masked>false</masked>
       <name>proxyInformation</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.url</defaultValue>
-      <description></description>
-      <id>346d721d-d9e0-4c7c-8adf-079784384fc5</id>
-      <masked>false</masked>
-      <name>url</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

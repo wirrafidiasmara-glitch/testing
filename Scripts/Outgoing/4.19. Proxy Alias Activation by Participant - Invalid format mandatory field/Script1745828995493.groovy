@@ -74,7 +74,7 @@ variable.put('userInput', userInput)
 
 variable.put('proxyInformation', proxyInformation)
 
-RequestObject request = findTestObject('Outgoing/4.19. Proxy Alias Activation by Participant - Invalid format mandatory field', 
+RequestObject request = findTestObject('null', 
     variable)
 
 def response = WS.sendRequest(request)

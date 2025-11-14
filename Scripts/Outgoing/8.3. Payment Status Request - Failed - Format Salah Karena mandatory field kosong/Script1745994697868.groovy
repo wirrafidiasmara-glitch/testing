@@ -22,15 +22,13 @@ import mii.JsonParser as JsonParser
 
 def variable = [:]
 
-variable.put('Authorization', Authorization)
-
 variable.put('Content_Type', Content_Type)
 
 variable.put('transactionId', transactionId)
 
-variable.put('transactionCode', transactionCode)
+variable.put('institutionBic', institutionBic)
 
-variable.put('cid', cid)
+variable.put('channelType', channelType)
 
 variable.put('channelType', channelType)
 
@@ -38,8 +36,7 @@ variable.put('originalTransactionId', originalTransactionId)
 
 variable.put('accountNumber', accountNumber)
 
-RequestObject request = findTestObject('Outgoing/8.3. Payment Status Request - Failed - Format Salah Karena mandatory field kosong', 
-    variable)
+RequestObject request = findTestObject('Outgoing/8.1. Successful Payment Status Request', variable)
 
 def response = WS.sendRequest(request)
 
@@ -49,5 +46,5 @@ WS.comment(bodyResponse)
 
 JsonParser.prettier(bodyResponse)
 
-CustomKeywords.'mii.paymentStatus.compareResponseCode'(bodyResponse, '2997')
+CustomKeywords.'mii.paymentStatus.compareResponseCode'(bodyResponse, '0000')
 

@@ -3,16 +3,16 @@
    <description></description>
    <name>1.2. Send Proxy Alias to get More Proxy list</name>
    <tag></tag>
-   <elementGuidId>802da7a9-ebfa-4678-ba2a-dea953a29ac2</elementGuidId>
+   <elementGuidId>cabc83c3-9c29-4080-ac83-4e2652bd5a54</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;proxyListRequest\&quot;: {\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;cifNumber\&quot;: \&quot;${cifNumber}\&quot;,\n        \&quot;cid\&quot;: \&quot;${cid}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;proxyListRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n        \&quot;cifNumber\&quot;: \&quot;${cifNumber}\&quot;,\n        \&quot;proxyAlias\&quot;: \&quot;${proxyAlias}\&quot;,\n        \&quot;accountNumber\&quot;: \&quot;${accountNumber}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>${Content_Type}</value>
+      <value>application/json</value>
       <webElementGuid>991fec3b-bfa6-4517-ace2-60019ce9dfe8</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
@@ -30,36 +30,36 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic QWRtaW5pc3RyYXRvcjptYW5hZ2U=</value>
-      <webElementGuid>cd576bb3-5ec5-4198-b019-129e0e2de6f3</webElementGuid>
+      <value>Basic dXNlcmNoYW5uZWw6dXNlcmNoYW5uZWwxMjM=</value>
+      <webElementGuid>0134cafb-dc14-4a0c-aeca-40de1d850868</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${url}/KomiBifastOriginProxy.interfaces:proxyList</restUrl>
+   <restUrl>http://184.169.41.163:5555/invoke/KomiBifastOriginProxy.interfaces:proxyList</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>04b005d1-8de3-4442-84ba-b2f2f35852bb</id>
-      <masked>false</masked>
-      <name>Authorization</name>
-   </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>79178c2e-b1d2-4f43-88ac-a3f0b9358cb6</id>
       <masked>false</masked>
       <name>Content_Type</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63b7792d-2ace-4a16-8411-3b7dbded0a89</id>
+      <masked>false</masked>
+      <name>transactionId</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -71,9 +71,9 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>63b7792d-2ace-4a16-8411-3b7dbded0a89</id>
+      <id>75831da8-57ca-469d-8877-485e1b91a055</id>
       <masked>false</masked>
-      <name>transactionId</name>
+      <name>institutionBic</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -92,9 +92,9 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>75831da8-57ca-469d-8877-485e1b91a055</id>
+      <id>14afc234-3f15-4a60-9ef1-e8cedbf50c87</id>
       <masked>false</masked>
-      <name>cid</name>
+      <name>accountNumber</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -102,13 +102,6 @@
       <id>8f70520f-9e99-404d-8308-2870ea8a0f40</id>
       <masked>false</masked>
       <name>channelType</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.url</defaultValue>
-      <description></description>
-      <id>d955b5bb-e6eb-4b97-9c3d-38e8c6c1058d</id>
-      <masked>false</masked>
-      <name>url</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

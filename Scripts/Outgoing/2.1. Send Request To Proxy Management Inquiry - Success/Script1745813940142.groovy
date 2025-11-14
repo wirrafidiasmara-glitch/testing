@@ -22,13 +22,12 @@ import mii.JsonParser as JsonParser
 
 def variable = [:]
 
-variable.put('Authorization', Authorization)
 
 variable.put('Content_Type', Content_Type)
 
 variable.put('transactionId', transactionId)
 
-variable.put('transactionCode', transactionCode)
+variable.put('institutionBic', institutionBic)
 
 variable.put('customerAccountNumber', customerAccountNumber)
 
@@ -44,7 +43,6 @@ variable.put('customerSecondaryType', customerSecondaryType)
 
 variable.put('customerSecondaryValue', customerSecondaryValue)
 
-variable.put('cid', cid)
 
 RequestObject request = findTestObject('Outgoing/2.1. Send Request To Proxy Management Inquiry - Success', variable)
 

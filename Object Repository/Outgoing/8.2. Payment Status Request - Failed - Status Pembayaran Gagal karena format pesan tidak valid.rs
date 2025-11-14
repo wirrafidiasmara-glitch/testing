@@ -3,7 +3,7 @@
    <description></description>
    <name>8.2. Payment Status Request - Failed - Status Pembayaran Gagal karena format pesan tidak valid</name>
    <tag></tag>
-   <elementGuidId>00eb0745-4a89-436f-a95e-88143c08942d</elementGuidId>
+   <elementGuidId>a2819e00-2b73-4771-865c-007f730f48c3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;paymentStatusRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;cid\&quot;: \&quot;${cid}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;originalTransactionId1\&quot;: \&quot;${originalTransactionId}\&quot;,\n        \&quot;accountNumber\&quot;: \&quot;${accountNumber}\&quot;\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;paymentStatusRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;originalTransactionId\&quot;: \&quot;${originalTransactionId}\&quot;,\n        \&quot;accountNumber\&quot;: \&quot;${accountNumber}\&quot;\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -30,15 +30,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic QWRtaW5pc3RyYXRvcjptYW5hZ2U=</value>
-      <webElementGuid>c928d75a-47cf-4620-aed9-7d128118ba91</webElementGuid>
+      <value>Basic dXNlcmNoYW5uZWw6dXNlcmNoYW5uZWwxMjM=</value>
+      <webElementGuid>8294127a-a04c-4d68-9d7f-8c789f02ff4f</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${url}/KomiBifastOriginCT.interfaces:paymentStatus</restUrl>
+   <restUrl>http://184.169.41.163:5555/invoke/KomiBifastOriginCT.interfaces:paymentStatus</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -50,23 +50,9 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>74761f1e-9a81-4258-8a3a-d868d3869d60</id>
-      <masked>false</masked>
-      <name>Authorization</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>a9002e5f-e8e7-4bb7-9cf0-767907a6569a</id>
       <masked>false</masked>
       <name>Content_Type</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.url</defaultValue>
-      <description></description>
-      <id>6d33c72e-255e-40e0-b615-7d1ee66f59c9</id>
-      <masked>false</masked>
-      <name>url</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -80,14 +66,7 @@
       <description></description>
       <id>bf7bc212-da3a-4945-98b7-165b74c34a74</id>
       <masked>false</masked>
-      <name>transactionCode</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>5e6eefa8-71b0-454c-a3a0-a0f46f9929aa</id>
-      <masked>false</masked>
-      <name>cid</name>
+      <name>institutionBic</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>

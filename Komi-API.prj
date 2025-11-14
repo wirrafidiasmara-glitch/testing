@@ -6,12 +6,12 @@
    <UUID>e1b42ad3-af98-48a1-b908-5bcadaf7698b</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.1.1</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>10.2.3</modifiedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.2.4</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Chindy\Chindy\BIFAST\Revamp\Automation\Komi-API BIFAST 2.0\Komi-API Now\Komi-API\Komi-API.prj</projectFileLocation>
+   <projectFileLocation>/Users/wirafidi/git/Bifast-2.0-Katalon/Komi-API.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

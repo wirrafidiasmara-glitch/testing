@@ -23,18 +23,13 @@ import org.apache.commons.lang.RandomStringUtils as RandStr
 
 def variable = [:]
 
-
 variable.put('Content_Type', Content_Type)
-
-variable.put('transactionId', transactionId)
-
-variable.put('transactionCode', transactionCode)
-
-variable.put('cid', cid)
 
 variable.put('channelType', channelType)
 
-variable.put('branchInput', branchInput)
+variable.put('institutionBic', institutionBic)
+
+variable.put('transactionId', transactionId)
 
 variable.put('debitedAccountNumber', debitedAccountNumber)
 
@@ -55,8 +50,6 @@ variable.put('amountCurrency', amountCurrency)
 variable.put('categoryPurpose', categoryPurpose)
 
 variable.put('chargeBearerCode', chargeBearerCode)
-
-variable.put('userInput', userInput)
 
 RequestObject request = findTestObject('Outgoing/6.1. Akun Enquiry - Success', variable)
 

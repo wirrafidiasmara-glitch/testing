@@ -6,8 +6,8 @@
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>1fb751ae-a8bb-4664-9680-8cd082d916c7</dataFileGUID>
-   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Automation\Komi-API BIFAST 2.0\Komi-API Now\Komi-API\Data Files\2.2. Send Request to Proxy Management Inquiry - Different Phone number.xlsx</dataSourceUrl>
+   <dataFileGUID>d6b9f1bf-1db6-49c5-bf7b-e89ca5de01b6</dataFileGUID>
+   <dataSourceUrl>/Users/wirafidi/git/Bifast-2.0-Katalon/Data Files/2.2. Send Request to Proxy Management Inquiry - Different Phone number.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

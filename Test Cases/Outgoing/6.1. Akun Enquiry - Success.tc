@@ -10,31 +10,7 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6f62eea0-950f-4293-b6a4-2865c5781eff</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d07182f0-181b-4b15-9b64-6b5a88f2a139</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>27d4a779-438d-4368-af24-1bfdbeb5b071</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f9560f85-24f6-4992-b02c-16ff56d80a62</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>6a9343fc-8271-478c-a024-0d6230d9a292</variableId>
+      <variableId>924fdf0d-9f9e-48fd-b812-64e58126e0d3</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -82,6 +58,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>1623500a-5dc3-4243-b6cc-479aed193434</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>62560bed-214b-454e-94d8-b271b8120e30</variableId>
    </variableLinks>
    <variableLinks>
@@ -108,46 +90,12 @@
       <value></value>
       <variableId>cec14587-2ebe-40a2-b2ae-3031edc17684</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>1623500a-5dc3-4243-b6cc-479aed193434</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6f62eea0-950f-4293-b6a4-2865c5781eff</id>
-      <masked>false</masked>
-      <name>Authorization</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>d07182f0-181b-4b15-9b64-6b5a88f2a139</id>
+      <id>924fdf0d-9f9e-48fd-b812-64e58126e0d3</id>
       <masked>false</masked>
       <name>Content_Type</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>27d4a779-438d-4368-af24-1bfdbeb5b071</id>
-      <masked>false</masked>
-      <name>transactionId</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>f9560f85-24f6-4992-b02c-16ff56d80a62</id>
-      <masked>false</masked>
-      <name>transactionCode</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>6a9343fc-8271-478c-a024-0d6230d9a292</id>
-      <masked>false</masked>
-      <name>cid</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -161,40 +109,47 @@
       <description></description>
       <id>a1155139-188d-4947-97d3-c7a16af0b45f</id>
       <masked>false</masked>
-      <name>branchInput</name>
+      <name>institutionBic</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>5e1811ef-8f09-48ae-a5c0-56350309d4c3</id>
       <masked>false</masked>
-      <name>debitedAccountNumber</name>
+      <name>transactionId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>5478a67e-d4ee-462a-b498-1da2a71e2a50</id>
       <masked>false</masked>
-      <name>creditedBic</name>
+      <name>debitedAccountNumber</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>8266f17d-bd54-40b1-97d5-3cf4163d4109</id>
       <masked>false</masked>
-      <name>creditedProxyType</name>
+      <name>creditedBic</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>5ee0dd37-73ac-4ea6-999f-d6e89e637bd3</id>
       <masked>false</masked>
-      <name>creditedProxyAlias</name>
+      <name>creditedProxyType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>2575f5d4-8be4-48f6-94c2-e480124d90ee</id>
+      <masked>false</masked>
+      <name>creditedProxyAlias</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1623500a-5dc3-4243-b6cc-479aed193434</id>
       <masked>false</masked>
       <name>chargeType</name>
    </variable>
@@ -232,12 +187,5 @@
       <id>cec14587-2ebe-40a2-b2ae-3031edc17684</id>
       <masked>false</masked>
       <name>chargeBearerCode</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>1623500a-5dc3-4243-b6cc-479aed193434</id>
-      <masked>false</masked>
-      <name>userInput</name>
    </variable>
 </TestCaseEntity>

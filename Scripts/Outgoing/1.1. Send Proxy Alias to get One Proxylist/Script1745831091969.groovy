@@ -28,13 +28,13 @@ variable.put('transactionCode', transactionCode)
 
 variable.put('transactionId', transactionId)
 
+variable.put('institutionBic', institutionBic)
+
 variable.put('cifNumber', cifNumber)
 
 variable.put('proxyAlias', proxyAlias)
 
 variable.put('accountNumber', accountNumber)
-
-variable.put('cid', cid)
 
 variable.put('channelType', channelType)
 

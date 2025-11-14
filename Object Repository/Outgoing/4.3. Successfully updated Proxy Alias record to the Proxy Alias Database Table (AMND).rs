@@ -3,7 +3,7 @@
    <description></description>
    <name>4.3. Successfully updated Proxy Alias record to the Proxy Alias Database Table (AMND)</name>
    <tag></tag>
-   <elementGuidId>69135656-907f-490b-9568-93b1cf8c01f2</elementGuidId>
+   <elementGuidId>0cd898a0-cf03-4b7a-9ac7-3e4de441a8b9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;proxyManagementRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;cid\&quot;: \&quot;${cid}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;proxyOperationType\&quot;: \&quot;${proxyOperationType}\&quot;,\n        \&quot;proxyType\&quot;: \&quot;${proxyType}\&quot;,\n        \&quot;proxyAlias\&quot;: \&quot;${proxyAlias}\&quot;,\n        \&quot;customerAccountNumber\&quot;: \&quot;${customerAccountNumber}\&quot;,\n        \&quot;branchCode\&quot;: \&quot;${branchCode}\&quot;,\n        \&quot;branchInput\&quot;: \&quot;${branchInput}\&quot;,\n      \t\&quot;registrationId\&quot;: \&quot;${registrationId}\&quot;,\n        \&quot;accountIdentifier\&quot;: \&quot;${accountIdentifier}\&quot;,\n        \&quot;customerType\&quot;: \&quot;${customerType}\&quot;,\n        \&quot;customerResidentStatus\&quot;: \&quot;${customerResidentStatus}\&quot;,\n        \&quot;customerCityCode\&quot;: \&quot;${customerCityCode}\&quot;,\n        \&quot;customerAccountType\&quot;: \&quot;${customerAccountType}\&quot;,\n        \&quot;customerAccountName\&quot;: \&quot;${customerAccountName}\&quot;,\n        \&quot;customerSecondaryType\&quot;: \&quot;${customerSecondaryType}\&quot;,\n        \&quot;customerSecondaryValue\&quot;: \&quot;${customerSecondaryValue}\&quot;,\n        \&quot;customerCurrency\&quot;: \&quot;${customerCurrency}\&quot;,\n        \&quot;cifNumber\&quot;: \&quot;${cifNumber}\&quot;,\n        \&quot;displayName\&quot;: \&quot;${displayName}\&quot;,\n        \&quot;userInput\&quot;: \&quot;${userInput}\&quot;,\n        \&quot;proxyInformation\&quot;: \&quot;${proxyInformation}\&quot;\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;proxyManagementRequest\&quot;: {\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;proxyOperationType\&quot;: \&quot;${proxyOperationType}\&quot;,\n        \&quot;proxyType\&quot;: \&quot;${proxyType}\&quot;,\n        \&quot;proxyAlias\&quot;: \&quot;${proxyAlias}\&quot;,\n        \&quot;customerAccountNumber\&quot;: \&quot;${customerAccountNumber}\&quot;,\n        \&quot;branchCode\&quot;: \&quot;${branchCode}\&quot;,\n        \&quot;branchInput\&quot;: \&quot;${branchInput}\&quot;,\n        \&quot;registrationId\&quot;: \&quot;${registrationId}\&quot;,\n        \&quot;accountIdentifier\&quot;: \&quot;${accountIdentifier}\&quot;,\n        \&quot;customerType\&quot;: \&quot;${customerType}\&quot;,\n        \&quot;customerResidentStatus\&quot;: \&quot;${customerResidentStatus}\&quot;,\n        \&quot;customerCityCode\&quot;: \&quot;${customerCityCode}\&quot;,\n        \&quot;customerAccountType\&quot;: \&quot;${customerAccountType}\&quot;,\n        \&quot;customerAccountName\&quot;: \&quot;${customerAccountName}\&quot;,\n        \&quot;customerSecondaryType\&quot;: \&quot;${customerSecondaryType}\&quot;,\n        \&quot;customerSecondaryValue\&quot;: \&quot;${customerSecondaryValue}\&quot;,\n        \&quot;customerCurrency\&quot;: \&quot;${customerCurrency}\&quot;,\n        \&quot;cifNumber\&quot;: \&quot;${cifNumber}\&quot;,\n        \&quot;displayName\&quot;: \&quot;${displayName}\&quot;,\n        \&quot;proxyInformation\&quot;: \&quot;${proxyInformation}\&quot;\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -30,15 +30,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic QWRtaW5pc3RyYXRvcjptYW5hZ2U=</value>
-      <webElementGuid>646877d0-1e1a-4907-930a-3df60bd2100a</webElementGuid>
+      <value>Basic dXNlcmNoYW5uZWw6dXNlcmNoYW5uZWwxMjM=</value>
+      <webElementGuid>88a9bef1-3875-4952-b39c-d05150670b8d</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${url}/KomiBifastOriginProxy.interfaces:proxyManagement</restUrl>
+   <restUrl>http://184.169.41.163:5555//invoke/KomiBifastOriginProxy.interfaces:proxyManagement</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -50,13 +50,6 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>04b005d1-8de3-4442-84ba-b2f2f35852bb</id>
-      <masked>false</masked>
-      <name>Authorization</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>79178c2e-b1d2-4f43-88ac-a3f0b9358cb6</id>
       <masked>false</masked>
       <name>Content_Type</name>
@@ -64,23 +57,23 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>63b7792d-2ace-4a16-8411-3b7dbded0a89</id>
+      <id>371e9356-8347-4fbc-b942-09c86e9658b2</id>
       <masked>false</masked>
-      <name>transactionId</name>
+      <name>channelType</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>7fd7b876-11a1-4984-9fc7-3a97c86ab75a</id>
       <masked>false</masked>
-      <name>cid</name>
+      <name>institutionBic</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>371e9356-8347-4fbc-b942-09c86e9658b2</id>
+      <id>63b7792d-2ace-4a16-8411-3b7dbded0a89</id>
       <masked>false</masked>
-      <name>channelType</name>
+      <name>transactionId</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -134,9 +127,16 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d1fd4540-7f02-4ec2-be3b-c9695513b78e</id>
+      <id>7e5b0b86-c4e3-4746-b15d-01afca36c748</id>
       <masked>false</masked>
       <name>registrationId</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d1fd4540-7f02-4ec2-be3b-c9695513b78e</id>
+      <masked>false</masked>
+      <name>accountIdentifier</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -211,30 +211,9 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>412ea6fd-ef34-4458-b7d2-92ae9ab853a2</id>
-      <masked>false</masked>
-      <name>userInput</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>35ed7522-4988-4da6-a8fe-bc32b55e09aa</id>
       <masked>false</masked>
       <name>proxyInformation</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.url</defaultValue>
-      <description></description>
-      <id>f23327bf-269e-4a9b-8400-700e48c9606a</id>
-      <masked>false</masked>
-      <name>url</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>2b870046-964f-4857-b789-df9fc3b0f1bc</id>
-      <masked>false</masked>
-      <name>accountIdentifier</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

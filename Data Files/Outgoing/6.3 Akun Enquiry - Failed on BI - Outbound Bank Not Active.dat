@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>6.3 Akun Enquiry - Failed on BI - Outbound Bank Not Active</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>082f05cb-769e-4b6e-be92-f798e7d1071a</dataFileGUID>
+   <dataSourceUrl>/Users/wirafidi/git/Bifast-2.0-Katalon/Data Files/6.3 Akun Enquiry - Failed on BI - Outbound Bank Not Active.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

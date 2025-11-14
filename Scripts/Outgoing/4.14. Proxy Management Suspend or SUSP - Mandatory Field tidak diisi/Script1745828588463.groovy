@@ -74,8 +74,7 @@ variable.put('userInput', userInput)
 
 variable.put('proxyInformation', proxyInformation)
 
-RequestObject request = findTestObject('Outgoing/4.14. Proxy Management Suspend or SUSP - Mandatory Field tidak diisi', 
-    variable)
+RequestObject request = findTestObject('4.6. Successfully Sending Participants Status is Suspend (SUSP)', variable)
 
 def response = WS.sendRequest(request)
 
@@ -85,5 +84,5 @@ WS.comment(bodyResponse)
 
 JsonParser.prettier(bodyResponse)
 
-CustomKeywords.'mii.ProxyManagement.compareResponseCode'(bodyResponse, '3400')
+CustomKeywords.'mii.ProxyManagement.compareResponseCode'(bodyResponse, '0000')
 

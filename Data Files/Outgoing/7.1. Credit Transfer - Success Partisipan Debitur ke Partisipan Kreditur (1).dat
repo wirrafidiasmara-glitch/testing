@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>6154947f-eaae-4bb6-88cb-2ff3c31bcb88</dataFileGUID>
-   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Automation\Komi-API BIFAST 2.0\Komi-API Now\Komi-API\Data Files\7.1. Credit Transfer - Success Partisipan Debitur ke Partisipan Kreditur.xlsx</dataSourceUrl>
+   <dataSourceUrl>/Users/wirafidi/git/Bifast-2.0-Katalon/Data Files/7.1. Credit Transfer - Success Partisipan Debitur ke Partisipan Kreditur.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

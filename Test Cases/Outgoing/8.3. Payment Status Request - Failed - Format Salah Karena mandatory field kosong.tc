@@ -5,108 +5,82 @@
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>2010a591-ffe8-4db7-ac5a-76f65a56e561</testCaseGuid>
+   <testCaseGuid>db6322d9-19da-4ec1-b584-a754c2101e93</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e9a51efb-4031-4514-8ec8-d672667bd577</variableId>
+      <variableId>3068cd62-5313-4d9d-8b40-b9efc6f9147a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>bbe8e1f3-09e2-47f4-b067-6d4f9c85b23f</variableId>
+      <variableId>9591ab81-99f4-4e92-9b32-1d2538e49f06</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f910589f-48f0-472b-80d2-57874795b955</variableId>
+      <variableId>03c00cc4-dac3-47bf-a0a5-123e659f0587</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>11a57e5e-0a7f-46b3-8402-63000a28971d</variableId>
+      <variableId>ae7850d5-8114-4f25-932f-1fe55a6be351</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>edad9544-07d5-4c6a-8458-a29cfcbc9499</variableId>
+      <variableId>0ae1743f-82ff-4e44-a99d-8f495204ca78</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ce540c64-5eb5-4417-9206-81f02daa1709</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ac6a4848-fdd5-4364-a1d0-683e8ff9ab67</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3fb42998-2d55-4105-9e4f-a837323aad6f</variableId>
+      <variableId>ec0d6be1-1f13-4236-bf4f-69a95df41f0e</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e9a51efb-4031-4514-8ec8-d672667bd577</id>
-      <masked>false</masked>
-      <name>Authorization</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>bbe8e1f3-09e2-47f4-b067-6d4f9c85b23f</id>
+      <id>3068cd62-5313-4d9d-8b40-b9efc6f9147a</id>
       <masked>false</masked>
       <name>Content_Type</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f910589f-48f0-472b-80d2-57874795b955</id>
+      <id>9591ab81-99f4-4e92-9b32-1d2538e49f06</id>
       <masked>false</masked>
       <name>transactionId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>11a57e5e-0a7f-46b3-8402-63000a28971d</id>
+      <id>03c00cc4-dac3-47bf-a0a5-123e659f0587</id>
       <masked>false</masked>
-      <name>transactionCode</name>
+      <name>institutionBic</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>edad9544-07d5-4c6a-8458-a29cfcbc9499</id>
-      <masked>false</masked>
-      <name>cid</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>ce540c64-5eb5-4417-9206-81f02daa1709</id>
+      <id>ae7850d5-8114-4f25-932f-1fe55a6be351</id>
       <masked>false</masked>
       <name>channelType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ac6a4848-fdd5-4364-a1d0-683e8ff9ab67</id>
+      <id>0ae1743f-82ff-4e44-a99d-8f495204ca78</id>
       <masked>false</masked>
       <name>originalTransactionId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>3fb42998-2d55-4105-9e4f-a837323aad6f</id>
+      <id>ec0d6be1-1f13-4236-bf4f-69a95df41f0e</id>
       <masked>false</masked>
       <name>accountNumber</name>
    </variable>

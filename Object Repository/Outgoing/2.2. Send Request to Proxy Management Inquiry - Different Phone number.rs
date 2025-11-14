@@ -3,7 +3,7 @@
    <description></description>
    <name>2.2. Send Request to Proxy Management Inquiry - Different Phone number</name>
    <tag></tag>
-   <elementGuidId>684bf228-4387-4dd9-b6ab-b1d117bfb1ac</elementGuidId>
+   <elementGuidId>fb49b8be-f950-434d-882e-a9ca7c2a11ea</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;proxyManagementInquiryRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;customerAccountNumber\&quot;: \&quot;${customerAccountNumber}\&quot;,\n        \&quot;proxyOperationType\&quot;: \&quot;${proxyOperationType}\&quot;,\n        \&quot;proxyType\&quot;: \&quot;${proxyType}\&quot;,\n        \&quot;proxyAlias\&quot;: \&quot;${proxyAlias}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;customerSecondaryType\&quot;: \&quot;${customerSecondaryType}\&quot;,\n        \&quot;customerSecondaryValue\&quot;: \&quot;${customerSecondaryValue}\&quot;,\n        \&quot;cid\&quot;: \&quot;${cid}\&quot;\n        \n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;proxyManagementInquiryRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n        \&quot;customerAccountNumber\&quot;: \&quot;${customerAccountNumber}\&quot;,\n        \&quot;proxyOperationType\&quot;: \&quot;${proxyOperationType}\&quot;,\n        \&quot;proxyType\&quot;: \&quot;${proxyType}\&quot;,\n        \&quot;proxyAlias\&quot;: \&quot;${proxyAlias}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;customerSecondaryType\&quot;: \&quot;${customerSecondaryType}\&quot;,\n        \&quot;customerSecondaryValue\&quot;: \&quot;${customerSecondaryValue}\&quot;       \n        \n    }\n}\n\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -30,15 +30,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic QWRtaW5pc3RyYXRvcjptYW5hZ2U=</value>
-      <webElementGuid>fd77338b-cda6-4da9-b112-2d2f56655292</webElementGuid>
+      <value>Basic dXNlcmNoYW5uZWw6dXNlcmNoYW5uZWwxMjM=</value>
+      <webElementGuid>84804065-760f-4e48-ad09-d94d8859fc4a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${url}/KomiBifastOriginProxy.interfaces:proxyInquiry</restUrl>
+   <restUrl>http://184.169.41.163:5555/invoke/KomiBifastOriginProxy.interfaces:proxyInquiry</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -52,7 +52,7 @@
       <description></description>
       <id>9a396a94-a406-43ad-ad93-7282345811a6</id>
       <masked>false</masked>
-      <name>Authorization</name>
+      <name>institutionBic</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -67,13 +67,6 @@
       <id>7f58420a-9bc0-4b25-ba22-c57dc105faf5</id>
       <masked>false</masked>
       <name>transactionId</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>3a24d169-cec5-4463-9fb7-36c6a8adede6</id>
-      <masked>false</masked>
-      <name>transactionCode</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -123,20 +116,6 @@
       <id>f33bd39d-1a2e-447b-af10-a5305316f517</id>
       <masked>false</masked>
       <name>customerSecondaryValue</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>612f21e5-0c8c-4af2-9c71-abf4ba8a5e25</id>
-      <masked>false</masked>
-      <name>cid</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.url</defaultValue>
-      <description></description>
-      <id>09a3778e-7332-4409-8dfe-b36ebd3de532</id>
-      <masked>false</masked>
-      <name>url</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

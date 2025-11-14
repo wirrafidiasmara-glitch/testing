@@ -3,16 +3,16 @@
    <description></description>
    <name>6.10. Account Enquiry - Failed - Duplikat</name>
    <tag></tag>
-   <elementGuidId>ba8a1b63-627f-4f8e-bd8e-637092e9e2e0</elementGuidId>
+   <elementGuidId>ee8f6631-a590-4a67-86e2-dbee7d7b7738</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;accountInquiryRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;cid\&quot;: \&quot;${cid}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;branchInput\&quot;: \&quot;${branchInput}\&quot;,\n        \&quot;debitedAccountNumber\&quot;: \&quot;${debitedAccountNumber}\&quot;,\n        \&quot;creditedBic\&quot;: \&quot;${creditedBic}\&quot;,\n        \&quot;creditedProxyType\&quot;: \&quot;${creditedProxyType}\&quot;,\n        \&quot;creditedProxyAlias\&quot;: \&quot;${creditedProxyAlias}\&quot;,\n        \&quot;chargeType\&quot;: \&quot;${chargeType}\&quot;,\n        \&quot;trxAmount\&quot;: \&quot;${trxAmount}\&quot;,\n        \&quot;feeAmount\&quot;: \&quot;${feeAmount}\&quot;,\n        \&quot;amountCurrency\&quot;: \&quot;${amountCurrency}\&quot;,\n        \&quot;categoryPurpose\&quot;: \&quot;${categoryPurpose}\&quot;,\n        \&quot;chargeBearerCode\&quot;: \&quot;${chargeBearerCode}\&quot;,\n        \&quot;userInput\&quot;: \&quot;${userInput}\&quot;\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n\t\&quot;accountInquiryRequest\&quot;: {\n\t\t\&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n\t\t\&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n\t\t\&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n\t\t\&quot;debitedAccountNumber\&quot;: \&quot;${debitedAccountNumber}\&quot;,\n\t\t\&quot;creditedBic\&quot;: \&quot;${creditedBic}\&quot;,\n\t\t\&quot;creditedProxyType\&quot;: \&quot;${creditedProxyType}\&quot;,\n\t\t\&quot;creditedProxyAlias\&quot;: \&quot;${creditedProxyAlias}\&quot;,\n\t\t\&quot;chargeType\&quot;: \&quot;${chargeType}\&quot;,\n\t\t\&quot;trxAmount\&quot;: \&quot;${trxAmount}\&quot;,\n\t\t\&quot;feeAmount\&quot;: \&quot;${feeAmount}\&quot;,\n\t\t\&quot;amountCurrency\&quot;: \&quot;${amountCurrency}\&quot;,\n\t\t\&quot;categoryPurpose\&quot;: \&quot;${categoryPurpose}\&quot;,\n\t\t\&quot;chargeBearerCode\&quot;: \&quot;${chargeBearerCode}\&quot;\n\t}\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -30,29 +30,29 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic QWRtaW5pc3RyYXRvcjptYW5hZ2U=</value>
-      <webElementGuid>c12a97c5-da4a-497d-8728-419c7ebd9bb6</webElementGuid>
+      <value>Basic dXNlcmNoYW5uZWw6dXNlcmNoYW5uZWwxMjM=</value>
+      <webElementGuid>4f68db2c-f164-4137-8c5b-65dae86fc041</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${url}/KomiBifastOriginAE.interfaces:accountInquiry</restUrl>
+   <restUrl>http://184.169.41.163:5555/invoke/KomiBifastOriginAE.interfaces:accountInquiry</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>37fe348d-5c5e-4408-bd38-a83f6691a2b4</id>
+      <id>c4008a58-44d1-405e-9840-199b1148ab40</id>
       <masked>false</masked>
-      <name>transactionCode</name>
+      <name>Content_Type</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -66,7 +66,7 @@
       <description></description>
       <id>7fd7b876-11a1-4984-9fc7-3a97c86ab75a</id>
       <masked>false</masked>
-      <name>cid</name>
+      <name>institutionBic</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -80,105 +80,70 @@
       <description></description>
       <id>14afc234-3f15-4a60-9ef1-e8cedbf50c87</id>
       <masked>false</masked>
-      <name>branchInput</name>
+      <name>debitedAccountNumber</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>75831da8-57ca-469d-8877-485e1b91a055</id>
       <masked>false</masked>
-      <name>debitedAccountNumber</name>
+      <name>creditedBic</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>8f70520f-9e99-404d-8308-2870ea8a0f40</id>
       <masked>false</masked>
-      <name>creditedBic</name>
+      <name>creditedProxyType</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>04b005d1-8de3-4442-84ba-b2f2f35852bb</id>
       <masked>false</masked>
-      <name>Authorization</name>
+      <name>creditedProxyAlias</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>79178c2e-b1d2-4f43-88ac-a3f0b9358cb6</id>
       <masked>false</masked>
-      <name>Content_Type</name>
+      <name>chargeType</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>4febee62-a73e-49c9-a41f-019e95f4f99d</id>
       <masked>false</masked>
-      <name>creditedProxyType</name>
+      <name>trxAmount</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>c59e2693-db86-42f0-8d2d-4a78c91054bd</id>
       <masked>false</masked>
-      <name>creditedProxyAlias</name>
+      <name>feeAmount</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>7e5b0b86-c4e3-4746-b15d-01afca36c748</id>
       <masked>false</masked>
-      <name>trxAmount</name>
+      <name>amountCurrency</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>ecbf84da-e054-48bf-8ea1-238cd356f5a0</id>
       <masked>false</masked>
-      <name>chargeType</name>
+      <name>categoryPurpose</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>2a977e0f-52dd-4c70-a51e-6d24f9f4bbb3</id>
       <masked>false</masked>
-      <name>amountCurrency</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>d1fd4540-7f02-4ec2-be3b-c9695513b78e</id>
-      <masked>false</masked>
-      <name>feeAmount</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>977fef07-094a-4a93-895c-9bbf7466c93a</id>
-      <masked>false</masked>
       <name>chargeBearerCode</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>810e0c7d-8edf-4373-8736-808a5741a6fe</id>
-      <masked>false</masked>
-      <name>categoryPurpose</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>ce28b43c-14af-4275-afb1-46267eb12fe6</id>
-      <masked>false</masked>
-      <name>userInput</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.url</defaultValue>
-      <description></description>
-      <id>fd343182-74eb-4929-a33e-66b684bd475a</id>
-      <masked>false</masked>
-      <name>url</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

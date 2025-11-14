@@ -16,13 +16,19 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>725ab91d-414d-4600-aff7-a04ac1083395</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>72638fe7-6f8e-4111-bfe4-fca71c1e676f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>725ab91d-414d-4600-aff7-a04ac1083395</variableId>
+      <variableId>1b118797-8dfe-4676-8ec3-27d5f5736a04</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -46,12 +52,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1b118797-8dfe-4676-8ec3-27d5f5736a04</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>e4d14392-b6f1-4dce-8cfc-426afc282120</variableId>
    </variableLinks>
    <variable>
@@ -64,6 +64,13 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+      <id>725ab91d-414d-4600-aff7-a04ac1083395</id>
+      <masked>false</masked>
+      <name>transactionId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
       <id>72638fe7-6f8e-4111-bfe4-fca71c1e676f</id>
       <masked>false</masked>
       <name>transactionCode</name>
@@ -71,9 +78,9 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>725ab91d-414d-4600-aff7-a04ac1083395</id>
+      <id>1b118797-8dfe-4676-8ec3-27d5f5736a04</id>
       <masked>false</masked>
-      <name>transactionId</name>
+      <name>institutionBic</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -95,13 +102,6 @@
       <id>9d93eae7-2697-4842-bc60-06688fb9960d</id>
       <masked>false</masked>
       <name>accountNumber</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>1b118797-8dfe-4676-8ec3-27d5f5736a04</id>
-      <masked>false</masked>
-      <name>cid</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

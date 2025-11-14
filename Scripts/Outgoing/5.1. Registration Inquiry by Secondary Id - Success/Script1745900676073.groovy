@@ -22,7 +22,6 @@ import mii.JsonParser as JsonParser
 
 def variable = [:]
 
-variable.put('Authorization', Authorization)
 
 variable.put('Content_Type', Content_Type)
 
@@ -32,6 +31,8 @@ variable.put('transactionCode', transactionCode)
 
 variable.put('channelType', channelType)
 
+variable.put('institutionBic', institutionBic)
+
 variable.put('customerSecondaryType', customerSecondaryType)
 
 variable.put('registrationId', registrationId)
@@ -39,8 +40,6 @@ variable.put('registrationId', registrationId)
 variable.put('customerAccountNumber', customerAccountNumber)
 
 variable.put('customerSecondaryValue', customerSecondaryValue)
-
-variable.put('cid', cid)
 
 RequestObject request = findTestObject('Outgoing/5.1. Registration Inquiry by Secondary Id - Success', variable)
 

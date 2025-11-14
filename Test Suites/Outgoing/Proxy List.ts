@@ -12,201 +12,67 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1c9f43aa-5f5f-4475-8751-061810b0099c</testSuiteGuid>
    <testCaseLink>
-      <guid>1cd54553-2828-4b75-ace7-6d15dfc5f230</guid>
+      <guid>ca8c7660-ea43-4ac3-852b-0b200f2bd6a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Outgoing/1.1. Send Proxy Alias to get One Proxylist</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>86835a5f-f35c-43ec-9491-e7ecf05f6f7e</id>
+         <id>3dfde068-ddc7-47f9-88ba-e6f091270ddc</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/1.1. Send Proxy Alias to get One Proxy list (1)</testDataId>
+         <testDataId>Data Files/Outgoing/1.1. Send Proxy Alias to get One Proxy list</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>86835a5f-f35c-43ec-9491-e7ecf05f6f7e</testDataLinkId>
+         <testDataLinkId>3dfde068-ddc7-47f9-88ba-e6f091270ddc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Content_Type</value>
          <variableId>445af606-2737-472d-b9d7-3d1ebb806f61</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>86835a5f-f35c-43ec-9491-e7ecf05f6f7e</testDataLinkId>
+         <testDataLinkId>3dfde068-ddc7-47f9-88ba-e6f091270ddc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>transactionCode</value>
          <variableId>72638fe7-6f8e-4111-bfe4-fca71c1e676f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>86835a5f-f35c-43ec-9491-e7ecf05f6f7e</testDataLinkId>
+         <testDataLinkId>3dfde068-ddc7-47f9-88ba-e6f091270ddc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>transactionId</value>
          <variableId>725ab91d-414d-4600-aff7-a04ac1083395</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>86835a5f-f35c-43ec-9491-e7ecf05f6f7e</testDataLinkId>
+         <testDataLinkId>3dfde068-ddc7-47f9-88ba-e6f091270ddc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>cifNumber</value>
          <variableId>7ceeaabb-815e-442e-a69f-fc0703f1222d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>86835a5f-f35c-43ec-9491-e7ecf05f6f7e</testDataLinkId>
+         <testDataLinkId>3dfde068-ddc7-47f9-88ba-e6f091270ddc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>proxyAlias</value>
          <variableId>c80cb846-f302-4221-8ac5-4e443dd6aaf3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>86835a5f-f35c-43ec-9491-e7ecf05f6f7e</testDataLinkId>
+         <testDataLinkId>3dfde068-ddc7-47f9-88ba-e6f091270ddc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>accountNumber</value>
          <variableId>9d93eae7-2697-4842-bc60-06688fb9960d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>86835a5f-f35c-43ec-9491-e7ecf05f6f7e</testDataLinkId>
+         <testDataLinkId>3dfde068-ddc7-47f9-88ba-e6f091270ddc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>cid</value>
          <variableId>1b118797-8dfe-4676-8ec3-27d5f5736a04</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>86835a5f-f35c-43ec-9491-e7ecf05f6f7e</testDataLinkId>
+         <testDataLinkId>3dfde068-ddc7-47f9-88ba-e6f091270ddc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>channelType</value>
          <variableId>e4d14392-b6f1-4dce-8cfc-426afc282120</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0f503c4f-f4ca-4952-94fc-eda8b2b5bd85</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Outgoing/1.2. Send Proxy Alias to get More Proxy list</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>63f3cbd1-4a44-49a5-a212-d1de9b496a81</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/1.2. Send Proxy Alias to get More Proxy list (1)</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>63f3cbd1-4a44-49a5-a212-d1de9b496a81</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Authorization</value>
-         <variableId>055fa701-cf30-4d04-b206-9acd46b2c80b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>63f3cbd1-4a44-49a5-a212-d1de9b496a81</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Content_Type</value>
-         <variableId>d4527bcb-d2e8-45d7-94f3-09b81fe06178</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>63f3cbd1-4a44-49a5-a212-d1de9b496a81</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>transactionCode</value>
-         <variableId>194b3574-bda8-4d56-937e-06f4a1e03d1a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>63f3cbd1-4a44-49a5-a212-d1de9b496a81</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>transactionId</value>
-         <variableId>349c6480-2139-4054-accf-ef77cec07a78</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>63f3cbd1-4a44-49a5-a212-d1de9b496a81</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>cifNumber</value>
-         <variableId>84e3e592-3479-49f6-8904-71e11f17404c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>63f3cbd1-4a44-49a5-a212-d1de9b496a81</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>proxyAlias</value>
-         <variableId>5ea7e135-8cd7-408d-a6ad-43a098c4192a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>63f3cbd1-4a44-49a5-a212-d1de9b496a81</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>cid</value>
-         <variableId>216784ea-7b7a-4d0c-9c80-011148a2476a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>63f3cbd1-4a44-49a5-a212-d1de9b496a81</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>channelType</value>
-         <variableId>365b562b-d7d3-4fbe-a01d-55298153036d</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4c729bbb-4ce0-4d04-9019-d6b0860ed95e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Outgoing/1.3. Send Proxy Alias to get Proxy list - Failed - Data not found (Negative)</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>c7dfea4c-c80a-448b-8d72-903cd95b0bdd</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/1.3. Send Proxy Alias to get Proxy list - Failed - Data not found (Negative)</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>c7dfea4c-c80a-448b-8d72-903cd95b0bdd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Authorization</value>
-         <variableId>8bfcbedc-542a-4e90-9171-c8a4e7b68e81</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c7dfea4c-c80a-448b-8d72-903cd95b0bdd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Content_Type</value>
-         <variableId>1cc3560b-529e-4f1d-8895-50c869ab27e9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c7dfea4c-c80a-448b-8d72-903cd95b0bdd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>transactionCode</value>
-         <variableId>3bd54f54-3e95-4f10-ace0-0867cb24914b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c7dfea4c-c80a-448b-8d72-903cd95b0bdd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>transactionId</value>
-         <variableId>4274807b-1d81-4e17-bb6a-20aa3686a595</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c7dfea4c-c80a-448b-8d72-903cd95b0bdd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>cifNumber</value>
-         <variableId>4839055d-bea0-451c-ad2a-cb4c8ddc75c9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c7dfea4c-c80a-448b-8d72-903cd95b0bdd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>proxyAlias</value>
-         <variableId>e649c99b-10df-4a38-8716-851e7acaca86</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c7dfea4c-c80a-448b-8d72-903cd95b0bdd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>accountNumber</value>
-         <variableId>d4f7fa4e-866d-425e-ae47-bcb8b0d6f000</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c7dfea4c-c80a-448b-8d72-903cd95b0bdd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>cid</value>
-         <variableId>0605286d-291b-4604-ba30-20e297e01e1c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c7dfea4c-c80a-448b-8d72-903cd95b0bdd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>channelType</value>
-         <variableId>457c7f58-f3f5-4ef4-a0bf-6f86c4dfe420</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

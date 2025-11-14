@@ -25,15 +25,11 @@ def variable = [:]
 
 variable.put('Content_Type', Content_Type)
 
-variable.put('transactionId', transactionId)
-
-variable.put('transactionCode', transactionCode)
-
-variable.put('cid', cid)
-
 variable.put('channelType', channelType)
 
-variable.put('branchInput', branchInput)
+variable.put('institutionBic', institutionBic)
+
+variable.put('transactionId', transactionId)
 
 variable.put('debitedAccountNumber', debitedAccountNumber)
 
@@ -55,10 +51,7 @@ variable.put('categoryPurpose', categoryPurpose)
 
 variable.put('chargeBearerCode', chargeBearerCode)
 
-variable.put('userInput', userInput)
-
-RequestObject request = findTestObject('Outgoing/6.9. Account Enquiry - Failed - Timeout (Dari sisi komi) timeout dari komi ke gateway', 
-    variable)
+RequestObject request = findTestObject('Outgoing/6.1. Akun Enquiry - Success', variable)
 
 def response = WS.sendRequest(request)
 
@@ -68,5 +61,5 @@ WS.comment(bodyResponse)
 
 JsonParser.prettier(bodyResponse)
 
-CustomKeywords.'mii.AccountInquiry.compareResponseCode'(bodyResponse, '3500')
+CustomKeywords.'mii.AccountInquiry.compareResponseCode'(bodyResponse, '0000')
 

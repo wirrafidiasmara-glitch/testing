@@ -5,355 +5,355 @@
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>6ab6c2fd-8fac-4014-8dbe-15ec1ceb6b58</testCaseGuid>
+   <testCaseGuid>69e9e0aa-e1bc-47a8-ac6b-a31797a1d2da</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>00325ef5-522d-4627-895e-d5f9cd3592f9</variableId>
+      <variableId>5b437d8f-80f6-46f2-86c9-09a23ea27c0e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fae5d7a8-f4f2-4cb6-9d3b-18c3c0de63c3</variableId>
+      <variableId>64410c88-c8db-43ed-97cd-291bebdb8de8</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>99b085f5-17ae-4260-ab09-4eabfe028bbf</variableId>
+      <variableId>3fe58ba5-c22b-4948-83d9-3499d94444ba</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>887d4d6e-2c92-47e0-ab0d-3b70b14a535c</variableId>
+      <variableId>e86f553e-c76b-441f-9814-ad46ac885636</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>28b233c8-15c5-4bd8-81ac-f29845f23e04</variableId>
+      <variableId>83a0654f-5d78-4e94-b904-1eadfe44a00e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c3023ea4-91ad-474c-96c8-420e2f458a5c</variableId>
+      <variableId>851e1c49-74ae-4872-aad7-4d4f429c4ce3</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>65d4651e-9440-4030-9aa5-f0a005928833</variableId>
+      <variableId>d3404b0a-64cd-4453-a78b-1afe02238621</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>879c39bb-fc23-42ac-b956-69f15d69b5b3</variableId>
+      <variableId>321cebe2-904a-4de5-8d49-93a675bc1a38</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f629d190-1ec0-48f1-9251-9b82604de8f7</variableId>
+      <variableId>e418e15c-f52f-4402-aa9f-2da41bc0b2f8</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>92598439-e305-42b0-9253-4ef36255e190</variableId>
+      <variableId>c6271b90-ceb9-4d96-b518-41b2ee4666ac</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e5c6107e-1599-4f22-97ea-e9ffcc7df7ba</variableId>
+      <variableId>5897906d-5bbd-4aa8-84bd-7e8b7019928a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c06d3545-c0eb-4b4b-995f-eb93d357758a</variableId>
+      <variableId>c9c9aff8-a0a0-49bf-9b44-31bef83784de</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c4a056cf-6f42-40ba-88bc-8d020f61fda0</variableId>
+      <variableId>e51954f3-d1cd-4670-ab0c-de35abe5ee2e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>dc0b26a5-a99f-4eb0-baa0-76feeb9e6ab1</variableId>
+      <variableId>ea6841fd-4852-4dcd-af40-5ed8de4fe793</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ff3988ef-870a-495c-93b2-0d43e3778bd2</variableId>
+      <variableId>e3a829c1-2e57-4dd2-bfbd-e9857bd22cc7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>87e3b187-a07b-469e-ba6f-4b92fd9a5f1a</variableId>
+      <variableId>db80daa4-5801-4d2c-bf79-fa52586d1ef6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>26c558ed-4e19-430d-8db9-3274a06e280c</variableId>
+      <variableId>e8ad69b0-11ef-4c69-bf74-d6420a298e33</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9637c934-e0e3-45a2-b093-ef9c9799546d</variableId>
+      <variableId>2b912dda-9bfd-481d-b721-354315e7fec5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>122df250-18b5-4ac8-8223-f12b6ed4c9f9</variableId>
+      <variableId>25b60682-fca8-4217-8307-58dcc6ac179a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>16eedd8b-4656-4801-b9ba-88683c392d13</variableId>
+      <variableId>0485aa52-1b45-4a5e-9ce7-a1a06275bdc3</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>86feb4e3-f08e-4f1e-b08b-0b4aa378439b</variableId>
+      <variableId>fccab5ce-6b92-41fd-9c39-c98fcca5b7a9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>27e66c62-7926-4358-bab0-a51a1cd2fe4b</variableId>
+      <variableId>029f3645-82ed-44c7-bb92-4c71c51de504</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>511173ba-f1d5-4094-84fb-ca6c1a1c3db1</variableId>
+      <variableId>2808ccbb-de0d-44f7-92e3-11c636e6618a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c49fd7b1-a54c-4bec-9189-31e523505907</variableId>
+      <variableId>f1bab2f8-2e55-4eec-9899-5f6b8d9b7fb6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ea6d9858-c020-4c7e-84fc-de1201c2a9fb</variableId>
+      <variableId>438d1908-5c44-400f-aa1d-9547d48b98a2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>bfa31bed-59c9-40e7-b274-9055b4a93d81</variableId>
+      <variableId>6a119368-1d63-44af-b190-9defa19e7466</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b5f27069-d526-418b-bd01-644ccb4b801d</variableId>
+      <variableId>c15f684b-0cdd-45c3-943b-9933c708f932</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>00325ef5-522d-4627-895e-d5f9cd3592f9</id>
+      <id>5b437d8f-80f6-46f2-86c9-09a23ea27c0e</id>
       <masked>false</masked>
       <name>Authorization</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>fae5d7a8-f4f2-4cb6-9d3b-18c3c0de63c3</id>
+      <id>64410c88-c8db-43ed-97cd-291bebdb8de8</id>
       <masked>false</masked>
       <name>Content_Type</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>99b085f5-17ae-4260-ab09-4eabfe028bbf</id>
+      <id>3fe58ba5-c22b-4948-83d9-3499d94444ba</id>
       <masked>false</masked>
       <name>transactionId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>887d4d6e-2c92-47e0-ab0d-3b70b14a535c</id>
+      <id>e86f553e-c76b-441f-9814-ad46ac885636</id>
       <masked>false</masked>
       <name>cid</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>28b233c8-15c5-4bd8-81ac-f29845f23e04</id>
+      <id>83a0654f-5d78-4e94-b904-1eadfe44a00e</id>
       <masked>false</masked>
       <name>channelType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c3023ea4-91ad-474c-96c8-420e2f458a5c</id>
+      <id>851e1c49-74ae-4872-aad7-4d4f429c4ce3</id>
       <masked>false</masked>
       <name>transactionCode</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>65d4651e-9440-4030-9aa5-f0a005928833</id>
+      <id>d3404b0a-64cd-4453-a78b-1afe02238621</id>
       <masked>false</masked>
       <name>proxyOperationType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>879c39bb-fc23-42ac-b956-69f15d69b5b3</id>
+      <id>321cebe2-904a-4de5-8d49-93a675bc1a38</id>
       <masked>false</masked>
       <name>proxyType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f629d190-1ec0-48f1-9251-9b82604de8f7</id>
+      <id>e418e15c-f52f-4402-aa9f-2da41bc0b2f8</id>
       <masked>false</masked>
       <name>proxyAlias</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>92598439-e305-42b0-9253-4ef36255e190</id>
+      <id>c6271b90-ceb9-4d96-b518-41b2ee4666ac</id>
       <masked>false</masked>
       <name>customerAccountNumber</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e5c6107e-1599-4f22-97ea-e9ffcc7df7ba</id>
+      <id>5897906d-5bbd-4aa8-84bd-7e8b7019928a</id>
       <masked>false</masked>
       <name>branchCode</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c06d3545-c0eb-4b4b-995f-eb93d357758a</id>
+      <id>c9c9aff8-a0a0-49bf-9b44-31bef83784de</id>
       <masked>false</masked>
       <name>branchInput</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c4a056cf-6f42-40ba-88bc-8d020f61fda0</id>
+      <id>e51954f3-d1cd-4670-ab0c-de35abe5ee2e</id>
       <masked>false</masked>
       <name>registrationId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>dc0b26a5-a99f-4eb0-baa0-76feeb9e6ab1</id>
+      <id>ea6841fd-4852-4dcd-af40-5ed8de4fe793</id>
       <masked>false</masked>
       <name>customerType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ff3988ef-870a-495c-93b2-0d43e3778bd2</id>
+      <id>e3a829c1-2e57-4dd2-bfbd-e9857bd22cc7</id>
       <masked>false</masked>
       <name>customerResidentStatus</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>87e3b187-a07b-469e-ba6f-4b92fd9a5f1a</id>
+      <id>db80daa4-5801-4d2c-bf79-fa52586d1ef6</id>
       <masked>false</masked>
       <name>customerCityCode</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>26c558ed-4e19-430d-8db9-3274a06e280c</id>
+      <id>e8ad69b0-11ef-4c69-bf74-d6420a298e33</id>
       <masked>false</masked>
       <name>customerAccountType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9637c934-e0e3-45a2-b093-ef9c9799546d</id>
+      <id>2b912dda-9bfd-481d-b721-354315e7fec5</id>
       <masked>false</masked>
       <name>customerAccountName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>122df250-18b5-4ac8-8223-f12b6ed4c9f9</id>
+      <id>25b60682-fca8-4217-8307-58dcc6ac179a</id>
       <masked>false</masked>
       <name>customerSecondaryType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>16eedd8b-4656-4801-b9ba-88683c392d13</id>
+      <id>0485aa52-1b45-4a5e-9ce7-a1a06275bdc3</id>
       <masked>false</masked>
       <name>customerSecondaryValue</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>86feb4e3-f08e-4f1e-b08b-0b4aa378439b</id>
+      <id>fccab5ce-6b92-41fd-9c39-c98fcca5b7a9</id>
       <masked>false</masked>
       <name>customerCurrency</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>27e66c62-7926-4358-bab0-a51a1cd2fe4b</id>
+      <id>029f3645-82ed-44c7-bb92-4c71c51de504</id>
       <masked>false</masked>
       <name>cifNumber</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>511173ba-f1d5-4094-84fb-ca6c1a1c3db1</id>
+      <id>2808ccbb-de0d-44f7-92e3-11c636e6618a</id>
       <masked>false</masked>
       <name>displayName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c49fd7b1-a54c-4bec-9189-31e523505907</id>
+      <id>f1bab2f8-2e55-4eec-9899-5f6b8d9b7fb6</id>
       <masked>false</masked>
       <name>variable</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ea6d9858-c020-4c7e-84fc-de1201c2a9fb</id>
+      <id>438d1908-5c44-400f-aa1d-9547d48b98a2</id>
       <masked>false</masked>
       <name>userInput</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>bfa31bed-59c9-40e7-b274-9055b4a93d81</id>
+      <id>6a119368-1d63-44af-b190-9defa19e7466</id>
       <masked>false</masked>
       <name>proxyInformation</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b5f27069-d526-418b-bd01-644ccb4b801d</id>
+      <id>c15f684b-0cdd-45c3-943b-9933c708f932</id>
       <masked>false</masked>
       <name>accountIdentifier</name>
    </variable>

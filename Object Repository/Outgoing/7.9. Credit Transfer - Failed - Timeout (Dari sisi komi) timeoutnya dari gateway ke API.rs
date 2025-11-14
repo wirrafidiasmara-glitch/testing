@@ -3,7 +3,7 @@
    <description></description>
    <name>7.9. Credit Transfer - Failed - Timeout (Dari sisi komi) timeoutnya dari gateway ke API</name>
    <tag></tag>
-   <elementGuidId>b1b90857-257f-494d-ab8e-844932e7dee1</elementGuidId>
+   <elementGuidId>5b51b8d5-aca0-4a2f-aef0-de74e4076bae</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;creditTransferRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;cid\&quot;: \&quot;${cid}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;branchCode\&quot;: \&quot;${branchCode}\&quot;,\n        \&quot;branchInput\&quot;: \&quot;${branchInput}\&quot;,\n        \&quot;branchFee\&quot;: \&quot;${branchFee}\&quot;,\n        \&quot;debitedAccountName\&quot;: \&quot;${debitedAccountName}\&quot;,\n        \&quot;debitedAccountNumber\&quot;: \&quot;${debitedAccountNumber}\&quot;,\n        \&quot;debitedAccountType\&quot;: \&quot;${debitedAccountType}\&quot;,\n        \&quot;debitedCityCode\&quot;: \&quot;${debitedCityCode}\&quot;,\n        \&quot;debitedId\&quot;: \&quot;${debitedId}\&quot;,\n        \&quot;debitedResidentStatus\&quot;: \&quot;${debitedResidentStatus}\&quot;,\n        \&quot;debitedType\&quot;: \&quot;${debitedType}\&quot;,\n        \&quot;creditedAccountName\&quot;: \&quot;${creditedAccountName}\&quot;,\n        \&quot;creditedAccountNumber\&quot;: \&quot;${creditedAccountNumber}\&quot;,\n        \&quot;creditedAccountType\&quot;: \&quot;${creditedAccountType}\&quot;,\n        \&quot;creditedBic\&quot;: \&quot;${creditedBic}\&quot;,\n        \&quot;creditedCityCode\&quot;: \&quot;${creditedCityCode}\&quot;,\n        \&quot;creditedId\&quot;: \&quot;${creditedId}\&quot;,\n        \&quot;creditedProxyAlias\&quot;: \&quot;${creditedProxyAlias}\&quot;,\n        \&quot;creditedProxyType\&quot;: \&quot;${creditedProxyType}\&quot;,\n        \&quot;creditedResidentStatus\&quot;: \&quot;${creditedResidentStatus}\&quot;,\n        \&quot;creditedType\&quot;: \&quot;${creditedType}\&quot;,\n        \&quot;categoryPurpose\&quot;: \&quot;${categoryPurpose}\&quot;,\n        \&quot;chargeType\&quot;: \&quot;${chargeType}\&quot;,\n        \&quot;trxAmount\&quot;: \&quot;${trxAmount}\&quot;,\n        \&quot;feeAmount\&quot;: \&quot;${feeAmount}\&quot;,\n        \&quot;amountCurrency\&quot;: \&quot;${amountCurrency}\&quot;,\n        \&quot;chargeBearerCode\&quot;: \&quot;${chargeBearerCode}\&quot;,\n        \&quot;paymentInformation\&quot;: \&quot;${paymentInformation}\&quot;,\n        \&quot;userInput\&quot;: \&quot;${userInput}\&quot;,\n        \&quot;channelRef\&quot;: \&quot;${channelRef}\&quot;\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;creditTransferRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;branchCode\&quot;: \&quot;${branchCode}\&quot;,\n        \&quot;branchInput\&quot;: \&quot;${branchInput}\&quot;,\n        \&quot;branchFee\&quot;: \&quot;${branchFee}\&quot;,\n        \&quot;debitedAccountName\&quot;: \&quot;${debitedAccountName}\&quot;,\n        \&quot;debitedAccountNumber\&quot;: \&quot;${debitedAccountNumber}\&quot;,\n        \&quot;debitedAccountType\&quot;: \&quot;${debitedAccountType}\&quot;,\n        \&quot;debitedCityCode\&quot;: \&quot;${debitedCityCode}\&quot;,\n        \&quot;debitedId\&quot;: \&quot;${debitedId}\&quot;,\n        \&quot;debitedResidentStatus\&quot;: \&quot;${debitedResidentStatus}\&quot;,\n        \&quot;debitedType\&quot;: \&quot;${debitedType}\&quot;,\n        \&quot;creditedAccountName\&quot;: \&quot;${creditedAccountName}\&quot;,\n        \&quot;creditedAccountNumber\&quot;: \&quot;${creditedAccountNumber}\&quot;,\n        \&quot;creditedAccountType\&quot;: \&quot;${creditedAccountType}\&quot;,\n        \&quot;creditedBic\&quot;: \&quot;${creditedBic}\&quot;,\n        \&quot;creditedCityCode\&quot;: \&quot;${creditedCityCode}\&quot;,\n        \&quot;creditedId\&quot;: \&quot;${creditedId}\&quot;,\n        \&quot;creditedProxyAlias\&quot;: \&quot;${creditedProxyAlias}\&quot;,\n        \&quot;creditedProxyType\&quot;: \&quot;${creditedProxyType}\&quot;,\n        \&quot;creditedResidentStatus\&quot;: \&quot;${creditedResidentStatus}\&quot;,\n        \&quot;creditedType\&quot;: \&quot;${creditedType}\&quot;,\n        \&quot;categoryPurpose\&quot;: \&quot;${categoryPurpose}\&quot;,\n        \&quot;chargeType\&quot;: \&quot;${chargeType}\&quot;,\n        \&quot;trxAmount\&quot;: \&quot;${trxAmount}\&quot;,\n        \&quot;feeAmount\&quot;: \&quot;${feeAmount}\&quot;,\n        \&quot;amountCurrency\&quot;: \&quot;${amountCurrency}\&quot;,\n        \&quot;chargeBearerCode\&quot;: \&quot;${chargeBearerCode}\&quot;,\n        \&quot;paymentInformation\&quot;: \&quot;${paymentInformation}\&quot;\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -30,15 +30,15 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic QWRtaW5pc3RyYXRvcjptYW5hZ2U=</value>
-      <webElementGuid>ff6a4ab6-88e4-4a02-b08b-211779efe28d</webElementGuid>
+      <value>Basic dXNlcmNoYW5uZWw6dXNlcmNoYW5uZWwxMjM=</value>
+      <webElementGuid>778d54c3-858c-43b3-88c8-9e2ffb77ce31</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${url}/KomiBifastOriginCT.interfaces:creditTransfer</restUrl>
+   <restUrl>http://184.169.41.163:5555/invoke/KomiBifastOriginCT.interfaces:creditTransfer</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,13 +47,6 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>04b005d1-8de3-4442-84ba-b2f2f35852bb</id>
-      <masked>false</masked>
-      <name>Authorization</name>
-   </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -73,14 +66,7 @@
       <description></description>
       <id>7fd7b876-11a1-4984-9fc7-3a97c86ab75a</id>
       <masked>false</masked>
-      <name>transactionCode</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>371e9356-8347-4fbc-b942-09c86e9658b2</id>
-      <masked>false</masked>
-      <name>cid</name>
+      <name>institutionBic</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
@@ -279,23 +265,9 @@
       <name>paymentInformation</name>
    </variables>
    <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>db25cba8-403e-4236-a9c5-3f22b017ef7b</id>
-      <masked>false</masked>
-      <name>userInput</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>5f5a0721-1ece-4a7f-b036-c1e7d6fdf0ac</id>
-      <masked>false</masked>
-      <name>channelRef</name>
-   </variables>
-   <variables>
       <defaultValue>GlobalVariable.url</defaultValue>
       <description></description>
-      <id>848fd13a-7967-45e1-888c-3edb3885dabc</id>
+      <id>cc821565-57e2-4274-80b9-5d28aa1d5f08</id>
       <masked>false</masked>
       <name>url</name>
    </variables>

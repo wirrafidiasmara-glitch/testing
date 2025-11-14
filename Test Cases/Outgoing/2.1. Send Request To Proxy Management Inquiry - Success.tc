@@ -10,12 +10,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a31b9c5b-1d7c-4f25-a060-934666384c82</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>7b02d83c-9601-481c-9ac5-36a3f78111f1</variableId>
    </variableLinks>
    <variableLinks>
@@ -72,19 +66,6 @@
       <value></value>
       <variableId>115d62e9-e14f-480c-88a9-8cf45d159280</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>68afd123-7ec7-4979-8e68-926f25ac5e8b</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>a31b9c5b-1d7c-4f25-a060-934666384c82</id>
-      <masked>false</masked>
-      <name>Authorization</name>
-   </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -104,7 +85,7 @@
       <description></description>
       <id>26fab9d9-8f9d-40d5-bc16-9f1ae6894a9e</id>
       <masked>false</masked>
-      <name>transactionCode</name>
+      <name>institutionBic</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -154,12 +135,5 @@
       <id>115d62e9-e14f-480c-88a9-8cf45d159280</id>
       <masked>false</masked>
       <name>customerSecondaryValue</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>68afd123-7ec7-4979-8e68-926f25ac5e8b</id>
-      <masked>false</masked>
-      <name>cid</name>
    </variable>
 </TestCaseEntity>

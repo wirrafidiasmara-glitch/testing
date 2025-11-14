@@ -22,15 +22,13 @@ import mii.JsonParser as JsonParser
 
 def variable = [:]
 
-variable.put('Authorization', Authorization)
-
 variable.put('Content_Type', Content_Type)
 
 variable.put('transactionId', transactionId)
 
-variable.put('transactionCode', transactionCode)
+variable.put('institutionBic', institutionBic)
 
-variable.put('cid', cid)
+variable.put('channelType', channelType)
 
 variable.put('channelType', channelType)
 

@@ -74,7 +74,7 @@ variable.put('userInput', userInput)
 
 variable.put('proxyInformation', proxyInformation)
 
-RequestObject request = findTestObject('Outgoing/4.18. Proxy Alias Suspend by Customer-Gagal Suspend ID Proxy Alias - Status Partisipan Dibekukan', 
+RequestObject request = findTestObject('null', 
     variable)
 
 def response = WS.sendRequest(request)

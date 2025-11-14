@@ -5,7 +5,7 @@
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>23bcfc83-d4f6-411c-b543-2d98aeb1d0d4</testCaseGuid>
+   <testCaseGuid>47f5e8b7-c400-48d9-b79b-84fd7f3723ef</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>08b62a2d-6ee8-4473-aafb-082bdd59627a</id>
@@ -18,456 +18,404 @@
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
-      <value>Authorization</value>
-      <variableId>c154ed58-c481-4c3f-9863-904f16965c9b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
-      <type>DATA_COLUMN</type>
       <value>Content_Type</value>
-      <variableId>b841c1ee-457c-4dbf-b62a-30a993d32391</variableId>
+      <variableId>36d15554-1ed7-4dbc-bb24-376f9165432d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>transactionId</value>
-      <variableId>7e06430c-9595-4479-87d5-a9d594e2e156</variableId>
+      <variableId>58a93dd0-f73e-4c22-a452-96884c08a4d5</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>transactionCode</value>
-      <variableId>4b23ba81-6923-4431-bd58-7ecfaa6099ba</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>cid</value>
-      <variableId>0589a2e4-f03a-4641-aa88-4e2e359c0783</variableId>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c7fec09-a71f-44f0-9dff-fddaf910c6e0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>channelType</value>
-      <variableId>25954000-511c-4b79-a795-9dc4901422c8</variableId>
+      <variableId>440fabaf-7141-4129-b546-9def9077f230</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>branchCode</value>
-      <variableId>076a4370-d97a-48d5-b626-fc37adbcc510</variableId>
+      <variableId>5217de39-6e0b-475a-b8c2-968b52dbdd90</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>branchInput</value>
-      <variableId>f92160cc-755b-45dc-bcf2-4485bc61dd85</variableId>
+      <variableId>66a4228c-9c4f-45fe-96f7-83c59948b4c2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>branchFee</value>
-      <variableId>a7b61707-30a5-4fe9-8a8e-c564ea61ae90</variableId>
+      <variableId>30a58b1c-03b8-447b-a081-d6360becd0e4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>debitedAccountName</value>
-      <variableId>2e6c2b49-dca6-461c-9be1-7c57baeaa690</variableId>
+      <variableId>8bf580ba-0fda-4eb6-9271-56ab91ef6052</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>debitedAccountNumber</value>
-      <variableId>d2966fb1-fd6b-4fb3-8261-66b3e837cfa8</variableId>
+      <variableId>6f13067d-8796-46a0-9010-5c50ad1b3600</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>debitedAccountType</value>
-      <variableId>f787818f-a77a-4d01-8e3e-07ef9a9953e7</variableId>
+      <variableId>a99e867f-d118-4154-8b00-cdfd10128a83</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>debitedCityCode</value>
-      <variableId>cb3932ae-fb40-4a7c-9748-db1783498b83</variableId>
+      <variableId>e9a206da-bcbf-4a00-a43a-6423131ab000</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>debitedId</value>
-      <variableId>90922a8f-23b5-4aa7-8954-75f7ef226963</variableId>
+      <variableId>cea74ff0-28d4-4fde-8afd-994f9f0375b5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>debitedResidentStatus</value>
-      <variableId>6fdcfb74-bcda-4578-9aa6-ddac65a6801c</variableId>
+      <variableId>37813a0a-e49d-4190-b03e-ca45c0f7a311</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>debitedType</value>
-      <variableId>2adc8378-91b7-46e6-9090-a202f212e533</variableId>
+      <variableId>969fbb0a-b5fd-45ac-a1a0-b9ce3a6cb529</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>creditedAccountName</value>
-      <variableId>79beee15-baf1-4790-bbe6-2c12f6edbbc3</variableId>
+      <variableId>6f083949-9e8a-42d5-8db4-562d12fdebca</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>creditedAccountNumber</value>
-      <variableId>182fec5a-71b0-4f0f-b297-6bcb232128e3</variableId>
+      <variableId>6e8e6ba4-80e2-4912-b3bc-58b8f17370c7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>creditedAccountType</value>
-      <variableId>1014c230-18ae-4767-b8ba-cc30054c92b7</variableId>
+      <variableId>05466971-168c-43f0-bf03-f8e27bdc03c1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>creditedBic</value>
-      <variableId>ee352fc4-dd99-4aa0-84f5-3f38159cda4b</variableId>
+      <variableId>b1f3d46b-5ce2-4ec9-b5ff-5b4edc69d456</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>creditedCityCode</value>
-      <variableId>7fe840f7-9a6f-4c3d-983a-cd93e313da29</variableId>
+      <variableId>72562b4f-bc6e-4ba2-bf22-83442d3b2974</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>creditedId</value>
-      <variableId>b5d9deb8-a838-4bc8-aeb5-ed3dea74c018</variableId>
+      <variableId>c96ec660-11e7-4ee7-90e2-f98c921730d4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>creditedProxyAlias</value>
-      <variableId>fe51d847-db18-4c62-a321-be00e4642cca</variableId>
+      <variableId>30971dd4-9ea6-4a3b-bf0a-47d8efd264f1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>creditedProxyType</value>
-      <variableId>76df2120-9b4b-4a42-92b1-3c3434a4ef09</variableId>
+      <variableId>f58dc0d6-f813-4ed0-8626-a4e635a8a76f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>creditedResidentStatus</value>
-      <variableId>19ef535c-8118-4713-a765-80b3c54a8da6</variableId>
+      <variableId>b4ff010b-086c-420f-9be5-b9492f206c45</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6b4ab283-790d-4dc4-9f2a-0fcfe6eeabaf</variableId>
+      <variableId>c88d488d-e75f-4b22-976e-1144151d81cd</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>categoryPurpose</value>
-      <variableId>2e5c10ad-9755-4a22-8444-a15f4ec7f90d</variableId>
+      <variableId>b0a08580-1f41-4d0b-b58f-93c48b6602b1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>chargeType</value>
-      <variableId>d215b700-9284-47e9-aa83-5665076d8539</variableId>
+      <variableId>8ec7d335-e8a7-474d-9cd2-5626bb5e8029</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>trxAmount</value>
-      <variableId>bfda0f76-4fc9-4ea7-b965-b2302d914ec3</variableId>
+      <variableId>4e587ead-f495-4e82-80a7-30dc1f98d1f3</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>feeAmount</value>
-      <variableId>1ead6ae8-f0c9-46df-b139-8d73d850b733</variableId>
+      <variableId>cf08ccf5-9de7-484d-b4b0-a132daecf278</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>amountCurrency</value>
-      <variableId>e84b2ac9-c77e-41ee-92b2-2c6ced400133</variableId>
+      <variableId>1153ae9b-54ea-4905-8c05-4f089c3d6f53</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0b96d2e9-5ddf-4404-862b-093dc8c7563a</variableId>
+      <variableId>b71769d5-6c87-4cdd-8356-7f47f87b60b1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>paymentInformation</value>
-      <variableId>73b77f41-5647-4ed3-ab8a-8962c23bd9c0</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>userInput</value>
-      <variableId>e7e6fac7-ff75-45dd-a42a-4c6bdc0837b1</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId>08b62a2d-6ee8-4473-aafb-082bdd59627a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>channelRef</value>
-      <variableId>45b68200-3107-4fd9-b17d-da40b60d12ab</variableId>
+      <variableId>68fbcb19-2057-451c-bca9-2c9fbe9eede7</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c154ed58-c481-4c3f-9863-904f16965c9b</id>
-      <masked>false</masked>
-      <name>Authorization</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>b841c1ee-457c-4dbf-b62a-30a993d32391</id>
+      <id>36d15554-1ed7-4dbc-bb24-376f9165432d</id>
       <masked>false</masked>
       <name>Content_Type</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7e06430c-9595-4479-87d5-a9d594e2e156</id>
+      <id>58a93dd0-f73e-4c22-a452-96884c08a4d5</id>
       <masked>false</masked>
       <name>transactionId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4b23ba81-6923-4431-bd58-7ecfaa6099ba</id>
+      <id>0c7fec09-a71f-44f0-9dff-fddaf910c6e0</id>
       <masked>false</masked>
-      <name>transactionCode</name>
+      <name>institutionBic</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0589a2e4-f03a-4641-aa88-4e2e359c0783</id>
-      <masked>false</masked>
-      <name>cid</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>25954000-511c-4b79-a795-9dc4901422c8</id>
+      <id>440fabaf-7141-4129-b546-9def9077f230</id>
       <masked>false</masked>
       <name>channelType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>076a4370-d97a-48d5-b626-fc37adbcc510</id>
+      <id>5217de39-6e0b-475a-b8c2-968b52dbdd90</id>
       <masked>false</masked>
       <name>branchCode</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f92160cc-755b-45dc-bcf2-4485bc61dd85</id>
+      <id>66a4228c-9c4f-45fe-96f7-83c59948b4c2</id>
       <masked>false</masked>
       <name>branchInput</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a7b61707-30a5-4fe9-8a8e-c564ea61ae90</id>
+      <id>30a58b1c-03b8-447b-a081-d6360becd0e4</id>
       <masked>false</masked>
       <name>branchFee</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>2e6c2b49-dca6-461c-9be1-7c57baeaa690</id>
+      <id>8bf580ba-0fda-4eb6-9271-56ab91ef6052</id>
       <masked>false</masked>
       <name>debitedAccountName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d2966fb1-fd6b-4fb3-8261-66b3e837cfa8</id>
+      <id>6f13067d-8796-46a0-9010-5c50ad1b3600</id>
       <masked>false</masked>
       <name>debitedAccountNumber</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f787818f-a77a-4d01-8e3e-07ef9a9953e7</id>
+      <id>a99e867f-d118-4154-8b00-cdfd10128a83</id>
       <masked>false</masked>
       <name>debitedAccountType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>cb3932ae-fb40-4a7c-9748-db1783498b83</id>
+      <id>e9a206da-bcbf-4a00-a43a-6423131ab000</id>
       <masked>false</masked>
       <name>debitedCityCode</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>90922a8f-23b5-4aa7-8954-75f7ef226963</id>
+      <id>cea74ff0-28d4-4fde-8afd-994f9f0375b5</id>
       <masked>false</masked>
       <name>debitedId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6fdcfb74-bcda-4578-9aa6-ddac65a6801c</id>
+      <id>37813a0a-e49d-4190-b03e-ca45c0f7a311</id>
       <masked>false</masked>
       <name>debitedResidentStatus</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>2adc8378-91b7-46e6-9090-a202f212e533</id>
+      <id>969fbb0a-b5fd-45ac-a1a0-b9ce3a6cb529</id>
       <masked>false</masked>
       <name>debitedType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>79beee15-baf1-4790-bbe6-2c12f6edbbc3</id>
+      <id>6f083949-9e8a-42d5-8db4-562d12fdebca</id>
       <masked>false</masked>
       <name>creditedAccountName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>182fec5a-71b0-4f0f-b297-6bcb232128e3</id>
+      <id>6e8e6ba4-80e2-4912-b3bc-58b8f17370c7</id>
       <masked>false</masked>
       <name>creditedAccountNumber</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>1014c230-18ae-4767-b8ba-cc30054c92b7</id>
+      <id>05466971-168c-43f0-bf03-f8e27bdc03c1</id>
       <masked>false</masked>
       <name>creditedAccountType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ee352fc4-dd99-4aa0-84f5-3f38159cda4b</id>
+      <id>b1f3d46b-5ce2-4ec9-b5ff-5b4edc69d456</id>
       <masked>false</masked>
       <name>creditedBic</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7fe840f7-9a6f-4c3d-983a-cd93e313da29</id>
+      <id>72562b4f-bc6e-4ba2-bf22-83442d3b2974</id>
       <masked>false</masked>
       <name>creditedCityCode</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b5d9deb8-a838-4bc8-aeb5-ed3dea74c018</id>
+      <id>c96ec660-11e7-4ee7-90e2-f98c921730d4</id>
       <masked>false</masked>
       <name>creditedId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>fe51d847-db18-4c62-a321-be00e4642cca</id>
+      <id>30971dd4-9ea6-4a3b-bf0a-47d8efd264f1</id>
       <masked>false</masked>
       <name>creditedProxyAlias</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>76df2120-9b4b-4a42-92b1-3c3434a4ef09</id>
+      <id>f58dc0d6-f813-4ed0-8626-a4e635a8a76f</id>
       <masked>false</masked>
       <name>creditedProxyType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>19ef535c-8118-4713-a765-80b3c54a8da6</id>
+      <id>b4ff010b-086c-420f-9be5-b9492f206c45</id>
       <masked>false</masked>
       <name>creditedResidentStatus</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6b4ab283-790d-4dc4-9f2a-0fcfe6eeabaf</id>
+      <id>c88d488d-e75f-4b22-976e-1144151d81cd</id>
       <masked>false</masked>
       <name>creditedType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>2e5c10ad-9755-4a22-8444-a15f4ec7f90d</id>
+      <id>b0a08580-1f41-4d0b-b58f-93c48b6602b1</id>
       <masked>false</masked>
       <name>categoryPurpose</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d215b700-9284-47e9-aa83-5665076d8539</id>
+      <id>8ec7d335-e8a7-474d-9cd2-5626bb5e8029</id>
       <masked>false</masked>
       <name>chargeType</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>bfda0f76-4fc9-4ea7-b965-b2302d914ec3</id>
+      <id>4e587ead-f495-4e82-80a7-30dc1f98d1f3</id>
       <masked>false</masked>
       <name>trxAmount</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>1ead6ae8-f0c9-46df-b139-8d73d850b733</id>
+      <id>cf08ccf5-9de7-484d-b4b0-a132daecf278</id>
       <masked>false</masked>
       <name>feeAmount</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e84b2ac9-c77e-41ee-92b2-2c6ced400133</id>
+      <id>1153ae9b-54ea-4905-8c05-4f089c3d6f53</id>
       <masked>false</masked>
       <name>amountCurrency</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0b96d2e9-5ddf-4404-862b-093dc8c7563a</id>
+      <id>b71769d5-6c87-4cdd-8356-7f47f87b60b1</id>
       <masked>false</masked>
       <name>chargeBearerCode</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>73b77f41-5647-4ed3-ab8a-8962c23bd9c0</id>
+      <id>68fbcb19-2057-451c-bca9-2c9fbe9eede7</id>
       <masked>false</masked>
       <name>paymentInformation</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>e7e6fac7-ff75-45dd-a42a-4c6bdc0837b1</id>
-      <masked>false</masked>
-      <name>userInput</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>45b68200-3107-4fd9-b17d-da40b60d12ab</id>
-      <masked>false</masked>
-      <name>channelRef</name>
    </variable>
 </TestCaseEntity>
