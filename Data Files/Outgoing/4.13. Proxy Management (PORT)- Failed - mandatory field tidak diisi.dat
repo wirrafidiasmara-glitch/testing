@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>4.13. Proxy Management (PORT)- Failed - mandatory field tidak diisi</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>e9c0533b-ef13-4e11-9697-0bfaa9cc6815</dataFileGUID>
+   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Automation\Komi-API BIFAST 2.0\Komi-API Now\Komi-API\Data Files\4.13. Proxy Management (PORT)- Failed - mandatory field tidak diisi.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>CT</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

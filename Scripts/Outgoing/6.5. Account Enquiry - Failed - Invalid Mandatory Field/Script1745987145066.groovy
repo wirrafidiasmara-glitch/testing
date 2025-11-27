@@ -29,8 +29,6 @@ variable.put('channelType', channelType)
 
 variable.put('institutionBic', institutionBic)
 
-variable.put('transactionId', transactionId)
-
 variable.put('debitedAccountNumber', debitedAccountNumber)
 
 variable.put('creditedBic', creditedBic)

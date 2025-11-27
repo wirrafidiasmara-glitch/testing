@@ -74,7 +74,7 @@ variable.put('displayName', displayName)
 
 variable.put('proxyInformation', proxyInformation)
 
-RequestObject request = findTestObject('null', variable)
+RequestObject request = findTestObject('Outgoing/4.13. Proxy Management (PORT)- Failed - mandatory field tidak diisi', variable)
 
 def response = WS.sendRequest(request)
 

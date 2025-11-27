@@ -26,8 +26,6 @@ variable.put('Authorization', Authorization)
 
 variable.put('Content_Type', Content_Type)
 
-variable.put('transactionId', transactionId)
-
 variable.put('cid', cid)
 
 variable.put('channelType', channelType)

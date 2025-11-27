@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>4.18. Proxy Alias Suspend by Customer-Gagal Suspend ID Proxy Alias - Status Partisipan Dibekukan</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4a5d02f2-4f45-47d9-9504-8789a512c781</dataFileGUID>
+   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Automation\Komi-API BIFAST 2.0\Komi-API Now\Komi-API\Data Files\4.18. Proxy Alias Suspend by Customer-Gagal Suspend ID Proxy Alias - Status Partisipan Dibekukan.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>CT</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

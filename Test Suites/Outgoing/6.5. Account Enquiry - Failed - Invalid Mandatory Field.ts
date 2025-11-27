@@ -47,12 +47,6 @@
       <variableLink>
          <testDataLinkId>c3ce0f94-e5ce-4718-a1d6-b28959ef50c9</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>transactionId</value>
-         <variableId>62eb5987-97b1-464e-8628-9683b5123c83</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c3ce0f94-e5ce-4718-a1d6-b28959ef50c9</testDataLinkId>
-         <type>DATA_COLUMN</type>
          <value>debitedAccountNumber</value>
          <variableId>3016e1dd-4809-4c41-8a9f-b32c322cd227</variableId>
       </variableLink>

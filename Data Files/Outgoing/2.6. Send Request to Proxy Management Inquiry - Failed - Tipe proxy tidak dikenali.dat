@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>2.6. Send Request to Proxy Management Inquiry - Failed - Tipe proxy tidak dikenali</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>26ce00a5-9ff5-4ec6-961e-d81118546712</dataFileGUID>
+   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Automation\Komi-API BIFAST 2.0\Komi-API Now\Komi-API\Data Files\2.6. Send Request to Proxy Management Inquiry - Failed - Tipe proxy tidak dikenali.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>PROXY</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

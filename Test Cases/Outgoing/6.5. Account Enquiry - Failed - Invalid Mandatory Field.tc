@@ -28,12 +28,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>62eb5987-97b1-464e-8628-9683b5123c83</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>3016e1dd-4809-4c41-8a9f-b32c322cd227</variableId>
    </variableLinks>
    <variableLinks>
@@ -104,13 +98,6 @@
       <id>4e036ddf-5fd3-4e81-9729-3d6c7059818a</id>
       <masked>false</masked>
       <name>institutionBic</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>62eb5987-97b1-464e-8628-9683b5123c83</id>
-      <masked>false</masked>
-      <name>transactionId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

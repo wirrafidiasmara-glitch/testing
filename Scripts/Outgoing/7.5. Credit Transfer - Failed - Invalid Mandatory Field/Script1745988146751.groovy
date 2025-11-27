@@ -27,8 +27,6 @@ def variable = [:]
 
 variable.put('Content_Type', Content_Type)
 
-variable.put('transactionId', transactionId)
-
 variable.put('institutionBic', institutionBic)
 
 variable.put('channelType', channelType)
@@ -87,7 +85,7 @@ variable.put('chargeBearerCode', chargeBearerCode)
 
 variable.put('paymentInformation', paymentInformation)
 
-RequestObject request = findTestObject('Outgoing/7.1. Credit Transfer - Success Partisipan Debitur ke Partisipan Kreditur', 
+RequestObject request = findTestObject('Outgoing/7.5. Credit Transfer - Failed - Invalid Mandatory Field', 
     variable)
 
 def response = WS.sendRequest(request)

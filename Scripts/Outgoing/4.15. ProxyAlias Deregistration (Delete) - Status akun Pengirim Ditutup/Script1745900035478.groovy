@@ -70,7 +70,7 @@ variable.put('displayName', displayName)
 
 variable.put('proxyInformation', proxyInformation)
 
-RequestObject request = findTestObject('4.4. Successfully deleted a Proxy Alias record from the Proxy Alias Database Table (DEAC)', variable)
+RequestObject request = findTestObject('Outgoing/4.15. ProxyAlias Deregistration (Delete) - Status akun Pengirim Ditutup', variable)
 
 def response = WS.sendRequest(request)
 

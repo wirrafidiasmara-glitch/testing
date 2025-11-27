@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;paymentStatusRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;originalTransactionId\&quot;: \&quot;${originalTransactionId}\&quot;,\n        \&quot;accountNumber\&quot;: \&quot;${accountNumber}\&quot;\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;paymentStatusRequest\&quot;: {\n        \&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;originalTransactionId\&quot;: \&quot;${originalTransactionId}\&quot;,\n        \&quot;accountNumber\&quot;: \&quot;${accountNumber}\&quot;\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -53,13 +53,6 @@
       <id>a9002e5f-e8e7-4bb7-9cf0-767907a6569a</id>
       <masked>false</masked>
       <name>Content_Type</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>daa625f2-8a91-4334-ae47-b5717ea879bd</id>
-      <masked>false</masked>
-      <name>transactionId</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>

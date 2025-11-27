@@ -72,7 +72,7 @@ variable.put('displayName', displayName)
 
 variable.put('proxyInformation', proxyInformation)
 
-RequestObject request = findTestObject('null', variable)
+RequestObject request = findTestObject('Outgoing/4.11. NEWR or PORT - Failed - Mandatory Field tidak diisi (NEWR)', variable)
 
 def response = WS.sendRequest(request)
 

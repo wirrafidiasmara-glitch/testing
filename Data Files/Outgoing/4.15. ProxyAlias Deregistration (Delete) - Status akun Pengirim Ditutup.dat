@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>4.15. ProxyAlias Deregistration (Delete) - Status akun Pengirim Ditutup</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>04fff591-11b0-497b-9444-592c65cb9b0c</dataFileGUID>
+   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Automation\Komi-API BIFAST 2.0\Komi-API Now\Komi-API\Data Files\4.15. ProxyAlias Deregistration (Delete) - Status akun Pengirim Ditutup.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>CT</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

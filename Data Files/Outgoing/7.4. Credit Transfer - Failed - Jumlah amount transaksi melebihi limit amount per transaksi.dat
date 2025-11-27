@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>7.4. Credit Transfer - Failed - Jumlah amount transaksi melebihi limit amount per transaksi</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>f953146c-266f-48fc-b444-c57cf445bc38</dataFileGUID>
+   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Automation\Komi-API BIFAST 2.0\Komi-API Now\Komi-API\Data Files\7.4. Credit Transfer - Failed - Jumlah amount transaksi melebihi limit amount per transaksi.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

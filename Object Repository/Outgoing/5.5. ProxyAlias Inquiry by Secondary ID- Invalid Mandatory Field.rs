@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;proxyRegInquiryRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n        \&quot;customerSecondaryType\&quot;: \&quot;${customerSecondaryType}\&quot;,\n      \t\&quot;registrationId\&quot;: \&quot;${registrationId}\&quot;,\n      \t\&quot;customerAccountNumber\&quot;: \&quot;${customerAccountNumber}\&quot;\n            \n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;proxyRegInquiryRequest\&quot;: {\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n        \&quot;customerSecondaryType\&quot;: \&quot;${customerSecondaryType}\&quot;,\n      \t\&quot;registrationId\&quot;: \&quot;${registrationId}\&quot;,\n      \t\&quot;customerAccountNumber\&quot;: \&quot;${customerAccountNumber}\&quot;\n            \n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -57,13 +57,6 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7f58420a-9bc0-4b25-ba22-c57dc105faf5</id>
-      <masked>false</masked>
-      <name>transactionId</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>3a24d169-cec5-4463-9fb7-36c6a8adede6</id>
       <masked>false</masked>
       <name>transactionCode</name>
@@ -92,16 +85,16 @@
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d1c737fe-9571-4eae-a602-4abea464cf1f</id>
+      <id>9bc6c2ca-911b-4625-baa0-733d93008800</id>
       <masked>false</masked>
-      <name>registrationId</name>
+      <name>customerAccountNumber</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9bc6c2ca-911b-4625-baa0-733d93008800</id>
+      <id>406a673f-b318-496d-9493-94c74f3ac357</id>
       <masked>false</masked>
-      <name>customerAccountNumber</name>
+      <name>registrationId</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

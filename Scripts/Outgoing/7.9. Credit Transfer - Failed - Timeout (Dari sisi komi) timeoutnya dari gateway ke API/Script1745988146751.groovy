@@ -87,7 +87,7 @@ variable.put('chargeBearerCode', chargeBearerCode)
 
 variable.put('paymentInformation', paymentInformation)
 
-RequestObject request = findTestObject('Outgoing/7.1. Credit Transfer - Success Partisipan Debitur ke Partisipan Kreditur', 
+RequestObject request = findTestObject('Outgoing/7.9. Credit Transfer - Failed - Timeout (Dari sisi komi) timeoutnya dari gateway ke API', 
     variable)
 
 def response = WS.sendRequest(request)

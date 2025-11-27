@@ -74,8 +74,7 @@ variable.put('userInput', userInput)
 
 variable.put('proxyInformation', proxyInformation)
 
-RequestObject request = findTestObject('null', 
-    variable)
+RequestObject request = findTestObject('Outgoing/4.16. Proxy Alias Deregistration (Delete) - Proxy Alias milik Partisipan sama dengan ID Registrasi yang berbeda', variable)
 
 def response = WS.sendRequest(request)
 

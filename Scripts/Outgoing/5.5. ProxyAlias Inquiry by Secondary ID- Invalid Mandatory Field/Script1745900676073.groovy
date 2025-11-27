@@ -25,8 +25,6 @@ def variable = [:]
 
 variable.put('Content_Type', Content_Type)
 
-variable.put('transactionId', transactionId)
-
 variable.put('transactionCode', transactionCode)
 
 variable.put('channelType', channelType)

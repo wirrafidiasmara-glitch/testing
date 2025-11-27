@@ -87,7 +87,7 @@ variable.put('chargeBearerCode', chargeBearerCode)
 
 variable.put('paymentInformation', paymentInformation)
 
-RequestObject request = findTestObject('Outgoing/7.1. Credit Transfer - Success Partisipan Debitur ke Partisipan Kreditur', 
+RequestObject request = findTestObject('Outgoing/7.8. Credit Transfer - Failed - Jumlah Yang Di Transfer Lebih Kecil dari Limit Transfer Partisipan Debitur Limit Likuiditas Partisipan', 
     variable)
 
 def response = WS.sendRequest(request)

@@ -74,8 +74,7 @@ variable.put('userInput', userInput)
 
 variable.put('proxyInformation', proxyInformation)
 
-RequestObject request = findTestObject('Outgoing/4.17. Proxy Management SUSB - Proxy Alias Milik Partisipan Lain dengan Status Proxy SUSB', 
-    variable)
+RequestObject request = findTestObject('Outgoing/4.17. Proxy Management SUSB - Proxy Alias Milik Partisipan Lain dengan Status Proxy SUSB', variable)
 
 def response = WS.sendRequest(request)
 

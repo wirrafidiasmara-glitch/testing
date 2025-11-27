@@ -22,12 +22,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2e25a9b7-4c9b-44a5-9d0f-ccb64c6ba2b9</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>45fa277f-9fe3-4459-8dfc-3baa6700b2a1</variableId>
    </variableLinks>
    <variableLinks>
@@ -175,13 +169,6 @@
       <id>5222c51e-04be-44e2-87ce-ff5a8991b053</id>
       <masked>false</masked>
       <name>Content_Type</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>2e25a9b7-4c9b-44a5-9d0f-ccb64c6ba2b9</id>
-      <masked>false</masked>
-      <name>transactionId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

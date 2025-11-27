@@ -51,7 +51,7 @@ variable.put('categoryPurpose', categoryPurpose)
 
 variable.put('chargeBearerCode', chargeBearerCode)
 
-RequestObject request = findTestObject('Outgoing/6.1. Akun Enquiry - Success', variable)
+RequestObject request = findTestObject('Outgoing/6.9. Account Enquiry - Failed - Timeout (Dari sisi komi) timeout dari komi ke gateway', variable)
 
 def response = WS.sendRequest(request)
 

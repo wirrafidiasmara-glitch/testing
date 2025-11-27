@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n\t\&quot;accountInquiryRequest\&quot;: {\n\t\t\&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n\t\t\&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n\t\t\&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n\t\t\&quot;debitedAccountNumber\&quot;: \&quot;${debitedAccountNumber}\&quot;,\n\t\t\&quot;creditedBic\&quot;: \&quot;${creditedBic}\&quot;,\n\t\t\&quot;creditedProxyType\&quot;: \&quot;${creditedProxyType}\&quot;,\n\t\t\&quot;creditedProxyAlias\&quot;: \&quot;${creditedProxyAlias}\&quot;,\n\t\t\&quot;chargeType\&quot;: \&quot;${chargeType}\&quot;,\n\t\t\&quot;trxAmount\&quot;: \&quot;${trxAmount}\&quot;,\n\t\t\&quot;feeAmount\&quot;: \&quot;${feeAmount}\&quot;,\n\t\t\&quot;categoryPurpose\&quot;: \&quot;${categoryPurpose}\&quot;,\n\t\t\&quot;chargeBearerCode\&quot;: \&quot;${chargeBearerCode}\&quot;\n\t}\n}&quot;,
+  &quot;text&quot;: &quot;{\n\t\&quot;accountInquiryRequest\&quot;: {\n\t\t\&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n\t\t\&quot;institutionBic\&quot;: \&quot;${institutionBic}\&quot;,\n\t\t\&quot;debitedAccountNumber\&quot;: \&quot;${debitedAccountNumber}\&quot;,\n\t\t\&quot;creditedBic\&quot;: \&quot;${creditedBic}\&quot;,\n\t\t\&quot;creditedProxyType\&quot;: \&quot;${creditedProxyType}\&quot;,\n\t\t\&quot;creditedProxyAlias\&quot;: \&quot;${creditedProxyAlias}\&quot;,\n\t\t\&quot;chargeType\&quot;: \&quot;${chargeType}\&quot;,\n\t\t\&quot;trxAmount\&quot;: \&quot;${trxAmount}\&quot;,\n\t\t\&quot;feeAmount\&quot;: \&quot;${feeAmount}\&quot;,\n\t\t\&quot;categoryPurpose\&quot;: \&quot;${categoryPurpose}\&quot;,\n\t\t\&quot;chargeBearerCode\&quot;: \&quot;${chargeBearerCode}\&quot;\n\t}\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -67,13 +67,6 @@
       <id>7fd7b876-11a1-4984-9fc7-3a97c86ab75a</id>
       <masked>false</masked>
       <name>institutionBic</name>
-   </variables>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>63b7792d-2ace-4a16-8411-3b7dbded0a89</id>
-      <masked>false</masked>
-      <name>transactionId</name>
    </variables>
    <variables>
       <defaultValue>''</defaultValue>

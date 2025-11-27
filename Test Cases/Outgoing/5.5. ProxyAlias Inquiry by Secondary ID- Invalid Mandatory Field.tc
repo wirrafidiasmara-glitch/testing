@@ -16,12 +16,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7ec47aad-dda9-43f0-af8c-c3736f0fc671</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>bdeb2316-0fd0-47f3-98ec-8634c7003f48</variableId>
    </variableLinks>
    <variableLinks>
@@ -60,13 +54,6 @@
       <id>970bf727-8ebf-4815-84a1-2e17470fca57</id>
       <masked>false</masked>
       <name>Content_Type</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>7ec47aad-dda9-43f0-af8c-c3736f0fc671</id>
-      <masked>false</masked>
-      <name>transactionId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

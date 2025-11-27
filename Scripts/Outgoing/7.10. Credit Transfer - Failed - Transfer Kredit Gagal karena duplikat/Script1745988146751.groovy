@@ -87,8 +87,7 @@ variable.put('chargeBearerCode', chargeBearerCode)
 
 variable.put('paymentInformation', paymentInformation)
 
-RequestObject request = findTestObject('null', 
-    variable)
+RequestObject request = findTestObject('Outgoing/7.10. Credit Transfer - Failed - Transfer Kredit Gagal karena duplikat',variable)
 
 def response = WS.sendRequest(request)
 

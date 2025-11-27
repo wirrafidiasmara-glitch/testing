@@ -24,8 +24,6 @@ def variable = [:]
 
 variable.put('Content_Type', Content_Type)
 
-variable.put('transactionId', transactionId)
-
 variable.put('institutionBic', institutionBic)
 
 variable.put('channelType', channelType)
@@ -36,7 +34,7 @@ variable.put('originalTransactionId', originalTransactionId)
 
 variable.put('accountNumber', accountNumber)
 
-RequestObject request = findTestObject('Outgoing/8.1. Successful Payment Status Request', variable)
+RequestObject request = findTestObject('Outgoing/8.2. Payment Status Request - Failed - Status Pembayaran Gagal karena format pesan tidak valid', variable)
 
 def response = WS.sendRequest(request)
 

@@ -36,7 +36,7 @@ variable.put('originalTransactionId', originalTransactionId)
 
 variable.put('accountNumber', accountNumber)
 
-RequestObject request = findTestObject('Outgoing/8.1. Successful Payment Status Request', variable)
+RequestObject request = findTestObject('Outgoing/8.3. Payment Status Request - Failed - Format Salah Karena mandatory field kosong', variable)
 
 def response = WS.sendRequest(request)
 
