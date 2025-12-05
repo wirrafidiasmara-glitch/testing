@@ -8,7 +8,7 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -22,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>${Content_Type}</value>
+      <value>application/json</value>
       <webElementGuid>991fec3b-bfa6-4517-ace2-60019ce9dfe8</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
@@ -31,21 +31,21 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Basic dXNlcmNoYW5uZWw6dXNlcmNoYW5uZWwxMjM=</value>
-      <webElementGuid>4f68db2c-f164-4137-8c5b-65dae86fc041</webElementGuid>
+      <webElementGuid>1b3cf7c1-2ff5-4bb3-87cd-04e7b33df721</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://184.169.41.163:5555/invoke/KomiBifastOriginAE.interfaces:accountInquiry</restUrl>
+   <restUrl>${path}/invoke/KomiBifastOriginAE.interfaces:accountInquiry</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>''</defaultValue>
@@ -144,6 +144,13 @@
       <id>2a977e0f-52dd-4c70-a51e-6d24f9f4bbb3</id>
       <masked>false</masked>
       <name>chargeBearerCode</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.IS_ORACLE_Outgoing</defaultValue>
+      <description></description>
+      <id>67ee1f83-bb5f-4654-9392-1752d6f0fb26</id>
+      <masked>false</masked>
+      <name>path</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

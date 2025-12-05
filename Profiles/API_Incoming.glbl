@@ -9,5 +9,6 @@
       <initValue>'http://184.169.41.162:5556/restv2/KomiBifastReceivingGatewayAPI.ws:gateway'</initValue>
       <name>url</name>
       <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

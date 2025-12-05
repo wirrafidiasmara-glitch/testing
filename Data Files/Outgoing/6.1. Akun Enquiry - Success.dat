@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>956055be-b6a2-4d67-a463-03f046ae8c11</dataFileGUID>
-   <dataSourceUrl>/Users/wirafidi/git/Bifast-2.0-Katalon/Data Files/6.1. Akun Enquiry - Success 2.0.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\6.1. Akun Enquiry - Success 2.0.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

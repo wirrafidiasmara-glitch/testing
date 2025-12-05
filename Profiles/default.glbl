@@ -3,11 +3,12 @@
    <description></description>
    <name>default</name>
    <tag></tag>
-   <defaultProfile>false</defaultProfile>
+   <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name>host</name>
+      <initValue>'http://184.169.41.163:5555'</initValue>
+      <name>IS_ORACLE_Outgoing</name>
       <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

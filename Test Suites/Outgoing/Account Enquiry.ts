@@ -12,103 +12,103 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>e46136cf-e75b-4f07-9342-8123ec2699f9</testSuiteGuid>
    <testCaseLink>
-      <guid>4592ca9c-c3bb-4524-bfac-e93f3b9b2c1a</guid>
+      <guid>2cb38117-c5b0-46f0-b656-934c0a61caf5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Outgoing/6.10. Account Enquiry - Failed - Duplikat</testCaseId>
+      <testCaseId>Test Cases/Outgoing/6.1.28 Acount Inquiry - Transaction Management Status Inactive</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>aa06e5ae-b129-4223-b1f6-5ffd24ede704</id>
+         <id>ea1d3158-0731-4087-ab2e-392c942dabca</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Outgoing/6.10. Account Enquiry - Failed - Duplikat</testDataId>
+         <testDataId>Data Files/Outgoing/6.1.28 Acount Inquiry - Transaction Management Status Inactive</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Content_Type</value>
-         <variableId>81604a36-f4e1-4070-9dd5-b5e63a4a8182</variableId>
+         <variableId>26fb7999-23c9-43bf-99c8-92bcbf5a1b10</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>channelType</value>
-         <variableId>569b2842-99fd-4c90-b4b6-c2ada7663107</variableId>
+         <variableId>d1f3dc0d-17e8-4ec2-9b86-a63c1c3bf7ed</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>institutionBic</value>
-         <variableId>0e953a30-1150-462e-9081-212c4dd1b59e</variableId>
+         <variableId>c52536c1-6550-40d7-b62f-01b4cb72dd90</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>transactionId</value>
-         <variableId>4fc27e8f-8646-44bc-8186-984ef61eafc3</variableId>
+         <variableId>16bf18c9-3603-4b8b-94d4-a7d365e2fbaa</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>debitedAccountNumber</value>
-         <variableId>ef5b71e9-8f4a-4d1c-9324-f8b6c4685402</variableId>
+         <variableId>ea599b08-b939-4c15-95cd-b2fac7d9f164</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>creditedBic</value>
-         <variableId>0beca7d9-aebe-4f48-b029-6454224c2572</variableId>
+         <variableId>8af33d7b-1bcb-413c-877a-57dca7ad989c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>creditedProxyType</value>
-         <variableId>48beac81-9a7a-4bab-bfda-8992c4aba3a7</variableId>
+         <variableId>8a5f2dae-38d5-42c0-bd1c-690bc80dda63</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>creditedProxyAlias</value>
-         <variableId>7fffbb52-3e40-4266-8610-41f595ceeffc</variableId>
+         <variableId>bcecf257-da04-4302-9d11-920015607955</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>chargeType</value>
-         <variableId>a6378ceb-5920-47dc-adfc-0d71d549bea2</variableId>
+         <variableId>d0d642ad-235c-4ea4-a9bf-fd7479e82e71</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>trxAmount</value>
-         <variableId>065fdf57-10a8-4c68-a45e-2b7f6fcc97c8</variableId>
+         <variableId>687cc223-a9d0-4e2e-9f02-6bdaae1499c9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>feeAmount</value>
-         <variableId>dd20f673-bc41-4fa6-bc29-4e8224152a81</variableId>
+         <variableId>73317f9b-e6b0-4929-81cf-51f94f55527c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>amountCurrency</value>
-         <variableId>b9e6bcf7-506f-449d-9a40-6814812c2bf7</variableId>
+         <variableId>2022f95f-2e6b-41ce-b65c-0e46fd86c111</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>categoryPurpose</value>
-         <variableId>7e69823d-4803-46ef-92c7-288505f3ff7f</variableId>
+         <variableId>30fbf24a-d5cc-4cc7-88c2-0c84240f201d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>aa06e5ae-b129-4223-b1f6-5ffd24ede704</testDataLinkId>
+         <testDataLinkId>ea1d3158-0731-4087-ab2e-392c942dabca</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>chargeBearerCode</value>
-         <variableId>406af575-2472-43b9-b921-c1a71f42b681</variableId>
+         <variableId>aa4097a5-d223-43ef-a173-53928a5faec2</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
