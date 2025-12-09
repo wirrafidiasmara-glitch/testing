@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>6.1.7 Akun Enquiry - CreditedBic Sedang Tidak Aktif</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>382778b3-4ab9-41cb-a7f4-23e72873d319</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\6.1.7 Akun Enquiry -  CreditedBic Sedang Tidak Aktif.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

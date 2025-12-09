@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>6.1.2 Akun Enquiry - Success by Proxy Mobile Phone</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>b0e3d825-69d9-4c8c-8f9b-d6e765186f48</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\6.1.2 Akun Enquiry - Success by Proxy Mobile Phone.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

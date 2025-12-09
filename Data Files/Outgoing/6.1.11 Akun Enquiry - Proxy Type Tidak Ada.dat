@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>6.1.11 Akun Enquiry - Proxy Type Tidak Ada</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>e4ca3bf6-0522-41b6-9bbe-a7eb91dc89b3</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\6.1.11 Akun Enquiry - Proxy Type Tidak Ada.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
