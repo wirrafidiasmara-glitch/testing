@@ -24,7 +24,6 @@ import java.util.Random as Random
 
 def variable = [:]
 
-
 variable.put('Content_Type', Content_Type)
 
 variable.put('transactionId', transactionId)
@@ -86,6 +85,14 @@ variable.put('amountCurrency', amountCurrency)
 variable.put('chargeBearerCode', chargeBearerCode)
 
 variable.put('paymentInformation', paymentInformation)
+
+variable.put('X_IP_ADDRESS', X_IP_ADDRESS)
+
+variable.put('X_DEVICE_ID', X_DEVICE_ID)
+
+variable.put('X_LATITUDE', X_LATITUDE)
+
+variable.put('X_LONGITUDE', X_LONGITUDE)
 
 RequestObject request = findTestObject('Outgoing/7.1. Credit Transfer - Success Partisipan Debitur ke Partisipan Kreditur', 
     variable)

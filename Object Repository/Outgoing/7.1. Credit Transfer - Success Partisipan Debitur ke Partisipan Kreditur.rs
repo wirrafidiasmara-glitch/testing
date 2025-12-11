@@ -33,12 +33,44 @@
       <value>Basic dXNlcmNoYW5uZWw6dXNlcmNoYW5uZWwxMjM=</value>
       <webElementGuid>778d54c3-858c-43b3-88c8-9e2ffb77ce31</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>X-IP-ADDRESS</name>
+      <type>Main</type>
+      <value>${X_IP_ADDRESS}</value>
+      <webElementGuid>300f736c-a587-406f-8498-89725e1bf564</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>X-DEVICE-ID</name>
+      <type>Main</type>
+      <value>${X_DEVICE_ID}</value>
+      <webElementGuid>09c81924-cc73-471c-9b96-cac6804a7e56</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>X-LATITUDE</name>
+      <type>Main</type>
+      <value>${X_LATITUDE}</value>
+      <webElementGuid>219a9c08-851c-4168-97f9-5c5c0f55e81e</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>X-LONGITUDE</name>
+      <type>Main</type>
+      <value>${X_LONGITUDE}</value>
+      <webElementGuid>54e842b8-a5ca-4222-9aaa-9ddaef089238</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://184.169.41.163:5555/invoke/KomiBifastOriginCT.interfaces:creditTransfer</restUrl>
+   <restUrl>/invoke/KomiBifastOriginCT.interfaces:creditTransfer</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -270,6 +302,34 @@
       <id>cc821565-57e2-4274-80b9-5d28aa1d5f08</id>
       <masked>false</masked>
       <name>url</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e84182b6-fe0a-40cc-bc8f-6b6fa37e158d</id>
+      <masked>false</masked>
+      <name>X_IP_ADDRESS</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a3081832-a3c8-4865-b8e4-c704b345dcb8</id>
+      <masked>false</masked>
+      <name>X_DEVICE_ID</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>151902ad-8bb7-4eb7-9744-a3684458396d</id>
+      <masked>false</masked>
+      <name>X_LATITUDE</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0406c368-1365-4a28-88b7-3fb54d0c5964</id>
+      <masked>false</masked>
+      <name>X_LONGITUDE</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

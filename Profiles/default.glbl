@@ -13,7 +13,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://184.169.41.163:5555'</initValue>
+      <initValue>'http://184.169.41.163:9950'</initValue>
       <name>IS_Postgres_Origin</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

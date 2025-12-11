@@ -212,5 +212,29 @@
          <value>paymentInformation</value>
          <variableId>3123b0e4-70ac-4f3b-a1a0-9545e9d6b7ec</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d43008e6-5a0d-48fa-bffe-d206ec5ebef0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f79e0dcf-dd7e-4aee-a831-9f8980eff9cd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a571f40c-ee6c-4a5c-ba3f-8f702aa3b936</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>18fd9a47-91a4-4d10-a63c-c3fe15f2fb1a</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
