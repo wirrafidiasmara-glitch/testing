@@ -24,67 +24,23 @@ import java.util.Random as Random
 
 def variable = [:]
 
-variable.put('Content_Type', Content_Type)
-
 variable.put('transactionId', transactionId)
 
 variable.put('institutionBic', institutionBic)
 
+variable.put('customerAccountNumber', customerAccountNumber)
+
+variable.put('proxyOperationType', proxyOperationType)
+
+variable.put('proxyType', proxyType)
+
+variable.put('proxyAlias', proxyAlias)
+
 variable.put('channelType', channelType)
 
-variable.put('branchCode', branchCode)
+variable.put('customerSecondaryType', customerSecondaryType)
 
-variable.put('branchInput', branchInput)
-
-variable.put('branchFee', branchFee)
-
-variable.put('debitedAccountName', debitedAccountName)
-
-variable.put('debitedAccountNumber', debitedAccountNumber)
-
-variable.put('debitedAccountType', debitedAccountType)
-
-variable.put('debitedCityCode', debitedCityCode)
-
-variable.put('debitedId', debitedId)
-
-variable.put('debitedResidentStatus', debitedResidentStatus)
-
-variable.put('debitedType', debitedType)
-
-variable.put('creditedAccountName', creditedAccountName)
-
-variable.put('creditedAccountNumber', creditedAccountNumber)
-
-variable.put('creditedAccountType', creditedAccountType)
-
-variable.put('creditedBic', creditedBic)
-
-variable.put('creditedCityCode', creditedCityCode)
-
-variable.put('creditedId', creditedId)
-
-variable.put('creditedProxyAlias', creditedProxyAlias)
-
-variable.put('creditedProxyType', creditedProxyType)
-
-variable.put('creditedResidentStatus', creditedResidentStatus)
-
-variable.put('creditedType', creditedType)
-
-variable.put('categoryPurpose', categoryPurpose)
-
-variable.put('chargeType', chargeType)
-
-variable.put('trxAmount', trxAmount)
-
-variable.put('feeAmount', feeAmount)
-
-variable.put('amountCurrency', amountCurrency)
-
-variable.put('chargeBearerCode', chargeBearerCode)
-
-variable.put('paymentInformation', paymentInformation)
+variable.put('customerSecondaryValue', customerSecondaryValue)
 
 variable.put('X_IP_ADDRESS', X_IP_ADDRESS)
 
@@ -94,7 +50,7 @@ variable.put('X_LATITUDE', X_LATITUDE)
 
 variable.put('X_LONGITUDE', X_LONGITUDE)
 
-RequestObject request = findTestObject('Origin CT/35. Credit Transfer - Success Partisipan Debitur ke Partisipan Kreditur', 
+RequestObject request = findTestObject('Proxy Management Inquiry/5. Send Request to Proxy Management Inquiry - Success', 
     variable)
 
 def response = WS.sendRequest(request)
@@ -105,5 +61,5 @@ WS.comment(bodyResponse)
 
 JsonParser.prettier(bodyResponse)
 
-CustomKeywords.'mii.CreditTransfer.compareResponseCode'(bodyResponse, '0000')
+CustomKeywords.'mii.ProxyManagementInquiry.compareResponseCode'(bodyResponse, '0000')
 
