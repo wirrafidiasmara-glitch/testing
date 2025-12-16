@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>75. Credit Transfer - Failed - Invalid Mandatory Field Fee Amount</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>0ea6e940-b887-41f8-b991-e49ca305d003</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\75. Credit Transfer - Failed - Invalid Mandatory Field Fee Amount.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

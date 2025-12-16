@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>73. Credit Transfer - Failed - Nomor Pengirim Status Block</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>33d0000d-35e8-4579-8d41-05f7990fdb24</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\73. Credit Transfer - Failed - Nomor Pengirim Status Block.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

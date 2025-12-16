@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>58. Credit Transfer - PRM - PRM DTTOT Rules Notification</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>927db2de-121b-4169-9129-a46bfb0e1b0b</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\CT Incoming\39. Credit Transfer - Success Partisipan Debitur ke Partisipan Kreditur.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

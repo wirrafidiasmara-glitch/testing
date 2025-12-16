@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>42. Credit Transfer - Failed - Timeout (Dari sisi komi) timeout dari komi ke gateway</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>86e5ccd7-02ca-416b-b466-0081b2b1f998</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\CT Incoming\42. Credit Transfer - Failed - Timeout (Dari sisi komi) timeout dari komi ke gateway.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

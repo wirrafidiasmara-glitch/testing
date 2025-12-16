@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>46. Credit Transfer - Failed - Invalid Mandatory Field (Coba semua mandatory)</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>f19df549-0ce6-4c40-8372-551c4870cee7</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\CT Incoming\46. Credit Transfer - Failed - Invalid Mandatory Field (Coba semua mandatory).xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

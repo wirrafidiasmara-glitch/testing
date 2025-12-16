@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>40. Credit Transfer - Failed - creditedAccountType Not Found</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>07bce122-8e33-4b78-bd6b-9de2fbaa4a05</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\40. Credit Transfer - Failed - creditedAccountType Not Found.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

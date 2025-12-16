@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>35. Credit Transfer - Success Partisipan Debitur ke Partisipan Kreditur</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c7bbbdd4-0bae-4cc5-8dec-07a216d6efc2</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\35. Credit Transfer - Success Partisipan Debitur ke Partisipan Kreditur.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

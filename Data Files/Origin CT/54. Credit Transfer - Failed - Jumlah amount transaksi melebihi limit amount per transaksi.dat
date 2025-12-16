@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>54. Credit Transfer - Failed - Jumlah amount transaksi melebihi limit amount per transaksi</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>17cb0085-2d38-445c-9a21-70f0f44b64c5</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\54. Credit Transfer - Failed - Jumlah amount transaksi melebihi limit amount per transaksi.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

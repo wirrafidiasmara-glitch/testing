@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>57. Credit Transfer - PRM - PRM Online Gambling Negative List (OFI)</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>f3919bd3-8a6d-482f-8e10-724fffede1c4</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\CT Incoming\57. Credit Transfer - PRM - PRM Online Gambling Negative List (OFI).xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

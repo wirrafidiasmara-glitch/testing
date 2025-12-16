@@ -12,79 +12,97 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>8239a4ee-e91a-4b32-a4db-c78b28cc5131</testSuiteGuid>
    <testCaseLink>
-      <guid>164286e3-9b00-4c82-b83e-030f23484f48</guid>
+      <guid>0be2e33f-81c5-4198-a3bd-5deb43b18ebe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Outgoing/2.1. Send Request To Proxy Management Inquiry - Success</testCaseId>
+      <testCaseId>Test Cases/Proxy Management Inquiry/5. Send Request to Proxy Management Inquiry - Success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</id>
+         <id>01b3a8d8-e20e-401e-9b33-5890df967999</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/2.1. Send Request To Proxy Management Inquiry - Success (1)</testDataId>
+         <testDataId>Data Files/Proxy Management Inquiry/5. Send Request to Proxy Management Inquiry - Success (1)</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</testDataLinkId>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Content_Type</value>
-         <variableId>7b02d83c-9601-481c-9ac5-36a3f78111f1</variableId>
+         <value>X_IP_ADDRESS</value>
+         <variableId>3b6617c6-79a2-4a96-bfab-fe5c26ea1514</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</testDataLinkId>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>X_DEVICE_ID</value>
+         <variableId>95b47973-d3c1-432a-955e-3861d4954559</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>X_LATITUDE</value>
+         <variableId>2432af80-befa-4ce2-b1f7-56174752b192</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>X_LONGITUDE</value>
+         <variableId>54ab1c88-7e1c-459e-81d0-fff78874db9b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>transactionId</value>
-         <variableId>3590b42e-a418-410e-a20d-1eb76b7aca41</variableId>
+         <variableId>cf77f45b-54a1-49f6-a69c-89c8ac50fd6d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</testDataLinkId>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>transactionCode</value>
-         <variableId>26fab9d9-8f9d-40d5-bc16-9f1ae6894a9e</variableId>
+         <value>institutionBic</value>
+         <variableId>82bd4065-24da-4941-b85d-05cdc7ba9b5c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</testDataLinkId>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>customerAccountNumber</value>
-         <variableId>fff5a09b-9317-4fb9-b19f-cf167e949696</variableId>
+         <variableId>82539a4d-61da-4018-8fc7-3266a1981ca6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</testDataLinkId>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>proxyOperationType</value>
-         <variableId>8aa1e5a9-0aee-4ee9-9900-9e9032f147a4</variableId>
+         <variableId>ef8d3b72-cde1-4fbd-97ba-5faab4849b2f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</testDataLinkId>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>proxyType</value>
-         <variableId>2e3d0743-19a4-41e3-b172-6d0ba294d5fb</variableId>
+         <variableId>30833610-69c5-4a8e-8f55-cb5f77655a1e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</testDataLinkId>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>proxyAlias</value>
-         <variableId>cc8764ea-0222-4f50-9a21-cd406ae3f112</variableId>
+         <variableId>0b412b9d-721a-4e41-a40f-9e522b099142</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</testDataLinkId>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>channelType</value>
-         <variableId>287a4c31-eef6-4227-947d-07088429b1df</variableId>
+         <variableId>4cc6bc02-7afc-4558-950e-23e394a34ee4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</testDataLinkId>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>customerSecondaryType</value>
-         <variableId>62303397-1da2-4151-b1c9-372b53a29f26</variableId>
+         <variableId>31a8c035-c532-4412-87b3-ebc822cb0cdf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bcea8392-c65f-4ef4-903e-3512dcb5a0ea</testDataLinkId>
+         <testDataLinkId>01b3a8d8-e20e-401e-9b33-5890df967999</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>customerSecondaryValue</value>
-         <variableId>115d62e9-e14f-480c-88a9-8cf45d159280</variableId>
+         <variableId>1885f5e6-6e6a-49ef-9102-4821acab980d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

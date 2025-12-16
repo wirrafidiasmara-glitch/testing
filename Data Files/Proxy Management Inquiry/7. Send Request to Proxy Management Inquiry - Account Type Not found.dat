@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>7. Send Request to Proxy Management Inquiry - Account Type Not found</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4e9eaff0-acde-432a-9d21-19bcbd4e5ab8</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\Proxy Management Inquiry\7. Send Request to Proxy Management Inquiry - Account Type Not found.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>77. Credit Transfer - Failed - Transaction Management Status Inactive</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>038cbd9e-3136-4e70-9333-72066dc7c52c</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\77. Credit Transfer - Failed - Transaction Management  Status Inactive.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

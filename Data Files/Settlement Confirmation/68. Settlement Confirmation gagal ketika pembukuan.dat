@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>68. Settlement Confirmation gagal ketika pembukuan</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>efb62381-3a29-4d48-98ae-acc2d1c631ee</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\Settlement Confirmation\68. Settlement Confirmation gagal ketika pembukuan.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

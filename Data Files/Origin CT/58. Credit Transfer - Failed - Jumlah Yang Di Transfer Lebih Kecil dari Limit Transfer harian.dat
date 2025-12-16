@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>58. Credit Transfer - Failed - Jumlah Yang Di Transfer Lebih Kecil dari Limit Transfer harian</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>972f7cc5-a24b-4ce8-a96e-d63a20e6081d</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\58. Credit Transfer - Failed - Jumlah Yang Di Transfer Lebih Kecil dari Limit Transfer harian.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

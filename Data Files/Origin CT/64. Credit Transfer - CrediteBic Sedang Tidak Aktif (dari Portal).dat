@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>64. Credit Transfer - CrediteBic Sedang Tidak Aktif (dari Portal)</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>60f186b5-9a94-4d26-a8e6-9a7a62ffb92d</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\64. Credit Transfer -  CrediteBic Sedang Tidak Aktif (dari Portal).xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

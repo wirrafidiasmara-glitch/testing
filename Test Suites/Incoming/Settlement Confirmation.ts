@@ -12,169 +12,193 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>edbb29a0-06c7-421b-a89e-246fd442a8ef</testSuiteGuid>
    <testCaseLink>
-      <guid>ca8ef274-4e25-4ff8-9e60-4a14789a399c</guid>
+      <guid>ea3e8b96-c1a5-4b3d-b10f-c3b5b7a19027</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Incoming/11.1. Successful Settlement Confirmation Request</testCaseId>
+      <testCaseId>Test Cases/Settlement Confirmation/65. Successful Settlement Confirmation Credit Request</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>3d127dd9-c25d-4d22-92bf-73fcf0c40150</id>
+         <id>01835d00-9af8-444d-83d3-bbe18f5f8dcb</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Incoming/11.1</testDataId>
+         <testDataId>Data Files/Settlement Confirmation/65. Successful Settlement Confirmation Credit Request (1)</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>AppHdrId</value>
-         <variableId>d9ba37c6-6e85-4429-9356-b45ee09fcb38</variableId>
+         <value>requestID</value>
+         <variableId>357a5e06-7728-4a2b-a809-e7e960628b8d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>ToId</value>
-         <variableId>9dd58802-f821-4987-b16b-1a20d5c757f0</variableId>
+         <value>requestDate</value>
+         <variableId>f71f8918-43ca-40ff-aa54-ea29eab821b4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>BizMsgIdr</value>
-         <variableId>1cbd0ed5-c7b8-4c51-94e4-2c086938c7f3</variableId>
+         <value>originalRequestID</value>
+         <variableId>a00cc2bc-65e6-4238-98a6-d60098377b81</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>MsgDefIdr</value>
-         <variableId>eae5c90d-a30c-49d2-aa2b-552b215026a3</variableId>
+         <value>msgNmID</value>
+         <variableId>36d5c1ee-fe20-4a78-af8a-27937268d515</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>BizSvc</value>
-         <variableId>15687dd2-36ed-46de-a53d-4ab0baa9bb06</variableId>
+         <value>originalRequestDate</value>
+         <variableId>ef6e1181-518b-483d-8bb2-a7253e3a22c0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CreDt</value>
-         <variableId>968d7c11-11ea-4cea-adae-525778e78302</variableId>
+         <value>originalEnd2EndID</value>
+         <variableId>2b947a9c-4971-4ecc-8241-c3914d9c6520</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>GrpHdrCreDtTm</value>
-         <variableId>0fcd3100-4592-4931-a85b-c0c185bfc794</variableId>
+         <value>originalTransactionID</value>
+         <variableId>47d6c024-55fe-4963-a639-652302408be8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>GrpHdrMsgId</value>
-         <variableId>45f9b92e-6d55-4a78-a8db-436dc3b39c4f</variableId>
+         <value>statusCode</value>
+         <variableId>eb958802-cc2b-4d27-856d-84a6ddf3f590</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>OrgnlMsgId</value>
-         <variableId>d0f0d01e-af0b-4c8c-b1b4-07ccc48bf78e</variableId>
+         <value>reasonCode</value>
+         <variableId>19491599-a533-4ced-9aaf-1d678e3994e4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>OrgnlMsgNmId</value>
-         <variableId>a5065da7-a734-4903-8c14-c1eaa31fd2ad</variableId>
+         <value>reasonAdditionalInfo</value>
+         <variableId>0487b44d-a134-458c-95da-ccfc25375768</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>TxInfAndStsOrgnlEndToEndId</value>
-         <variableId>69d76740-3695-44d9-83de-49e05ede50f1</variableId>
+         <value>settlementDate</value>
+         <variableId>2a3f790f-0a49-4009-962a-f1986a6dc3c4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>TxInfAndStsOrgnlTxId</value>
-         <variableId>a1c7ea79-a341-4ae5-9341-021fd9636a7f</variableId>
+         <value>debitorname</value>
+         <variableId>d9337a29-709b-4aae-a1cb-4c0ab893aff4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>TxInfAndStsTxSts</value>
-         <variableId>4154bb23-d8ae-420f-9561-d142e871fed8</variableId>
+         <value>debitoraccountID</value>
+         <variableId>34a20c1f-42c1-469e-8d31-6d46ede55600</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>StsRsnInfPrtry</value>
-         <variableId>497425c6-d51f-4eea-8b61-ccc9c29d20ad</variableId>
+         <value>debitoraccountType</value>
+         <variableId>b998902a-1f53-4a09-aefe-a631ce3c3fd6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>ClrSysRef</value>
-         <variableId>3f9ad223-47ce-4825-b689-1feb617d7435</variableId>
+         <value>debitoragentID</value>
+         <variableId>89e3972a-c5b6-4cd1-af5f-dc39a4c9bfb9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>IntrBkSttlmDt</value>
-         <variableId>494e5872-98b2-4208-899d-dea6e027c7ac</variableId>
+         <value>debitortype</value>
+         <variableId>1e955ae6-76b9-43ad-ac84-55e957705ef6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>DbtrNm</value>
-         <variableId>02dc058e-51a4-4191-b0bb-1db804a77d3e</variableId>
+         <value>debitornatID</value>
+         <variableId>b45a9dfb-fc89-4be8-a2e3-d061ee314adf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>DbtrAcctId</value>
-         <variableId>58625212-d1d0-4f7d-9728-0af4ee059f9f</variableId>
+         <value>debitorrsdntSts</value>
+         <variableId>bbfcf86b-c7ac-42fc-9219-c2c99019d707</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>DbtrAgtId</value>
-         <variableId>9e2d2dcf-fed0-4dd3-a60b-2b100b1c58ab</variableId>
+         <value>debitortwnNm</value>
+         <variableId>078b9d25-ec7d-43bb-8620-77e4fb71b126</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CdtrAgtId</value>
-         <variableId>fa01ba7f-b01f-43b5-9706-783993ecccc6</variableId>
+         <value>debitorsettlementAccountID</value>
+         <variableId>707e56b7-8806-4acd-8183-1d4332b12de1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CdtrNm</value>
-         <variableId>efd13b35-7f13-4cd6-981b-bb0967276648</variableId>
+         <value>creditoragentID</value>
+         <variableId>3a0f9bfb-9c2a-429a-8dbe-2feb096d7066</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CdtrAcctOthrId</value>
-         <variableId>971f1626-5892-4185-adf6-363a38850615</variableId>
+         <value>creditorname</value>
+         <variableId>f9c317b2-1950-4c21-8276-11a5b8f3070e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>TpPrtry</value>
-         <variableId>6eeecd97-d943-42cd-a310-f3fb3eac4ad2</variableId>
+         <value>creditoraccountID</value>
+         <variableId>c8ef844f-cd90-4dde-ac8c-0810a96b37b7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>DbtrAgtAcctId</value>
-         <variableId>b84ff51a-ae9f-4d4c-9560-40950691b947</variableId>
+         <value>creditoraccountType</value>
+         <variableId>63a4be2c-a9c5-415c-8dd4-991d449d7bd5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3d127dd9-c25d-4d22-92bf-73fcf0c40150</testDataLinkId>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CdtrAgtAcctId</value>
-         <variableId>c2d1b7d4-96d8-4943-b3ae-ab7d102ee302</variableId>
+         <value>creditortype</value>
+         <variableId>37b0f1f3-fa51-4fbd-99a4-ca2eff5cc0fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>creditornatID</value>
+         <variableId>5f2713a2-6748-4ac0-845a-8c6866ea0ed7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>creditorrsdntSts</value>
+         <variableId>89b984a4-9444-49ca-a277-6a74b68cbf25</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>creditortwnNm</value>
+         <variableId>c1fc077f-7277-480a-8fa0-8e6446f17250</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01835d00-9af8-444d-83d3-bbe18f5f8dcb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>creditorsettlementAccountID</value>
+         <variableId>24dc2329-8349-45f5-96b9-bfdaa7d783b7</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

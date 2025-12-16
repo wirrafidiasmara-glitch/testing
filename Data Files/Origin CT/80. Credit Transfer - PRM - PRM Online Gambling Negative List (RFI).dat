@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>80. Credit Transfer - PRM - PRM Online Gambling Negative List (RFI)</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>635b04be-a8b6-4e6a-9fb8-dced30b6d2f2</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\80. Credit Transfer - PRM - PRM Online Gambling Negative List (RFI).xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

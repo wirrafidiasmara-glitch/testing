@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>42. Credit Transfer - Failed - debitedAccountNumber Not Found</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>971563a1-e2c3-4b1a-a7a4-9e2043c5e44c</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\42. Credit Transfer - Failed - debitedAccountNumber Not Found.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

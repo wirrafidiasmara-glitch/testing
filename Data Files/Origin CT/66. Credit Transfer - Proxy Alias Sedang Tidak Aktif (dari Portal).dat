@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>66. Credit Transfer - Proxy Alias Sedang Tidak Aktif (dari Portal)</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>30e062df-867e-4a79-98f9-1425bd2ede7f</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\66. Credit Transfer -  Proxy Alias Sedang Tidak Aktif (dari Portal).xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>82. Credit Transfer - PRM - PRM DTTOT Rules Notification</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ac20385c-5607-46e6-ac87-2845114f92f0</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\82. Credit Transfer - PRM - PRM DTTOT Rules Notification.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>66. Settlement Confirmation - PRM - PRM Invalid Status</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>65e7bc20-f50f-4b21-9541-a5e6cb97fbea</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\Settlement Confirmation\66. Settlement Confirmation - PRM - PRM Invalid Status.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

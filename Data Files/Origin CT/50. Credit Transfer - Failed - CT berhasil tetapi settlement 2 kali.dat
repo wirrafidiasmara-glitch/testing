@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>50. Credit Transfer - Failed - CT berhasil tetapi settlement 2 kali</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>32889c2c-4cc9-4328-ac14-bbea5c2b17e2</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\50. Credit Transfer - Failed - CT berhasil tetapi settlement 2 kali.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>53. Credit Transfer - Failed - Nominal fee melebihi limit yang ditentukan</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>764121b7-e272-4349-9cd7-f9b471b018cf</dataFileGUID>
+   <dataSourceUrl>C:\Users\hutap\git\Katalon\Data Files\53. Credit Transfer - Failed - Nominal fee melebihi limit yang ditentukan.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
