@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Echo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>46b43db3-0ff0-4da2-8044-9e8c09c7ed70</testSuiteGuid>
+   <testCaseLink>
+      <guid>e09b1d3c-ad8d-47e5-8b1b-dc23fd6cda26</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Network Management/6. Network Management(Echo) (API) - Invalid Mandatory Field</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c1e276bf-238b-4e57-adc4-67cf96d5a5d4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Network Management/6. Network Management(Echo) (API) - Invalid Mandatory Field</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c1e276bf-238b-4e57-adc4-67cf96d5a5d4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>requestID</value>
+         <variableId>5784cf18-0707-48dd-abcb-485f7118cae5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c1e276bf-238b-4e57-adc4-67cf96d5a5d4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>requestDate</value>
+         <variableId>4f315de3-b9be-4acf-8dd0-7dab661b76db</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c1e276bf-238b-4e57-adc4-67cf96d5a5d4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>functionCode</value>
+         <variableId>bba6acdd-1402-4ebb-81b5-65a0a0346449</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c1e276bf-238b-4e57-adc4-67cf96d5a5d4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>transactionID</value>
+         <variableId>b2a2847f-52c4-48a0-b14d-81e55a232f46</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c1e276bf-238b-4e57-adc4-67cf96d5a5d4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>agentID</value>
+         <variableId>aaa627b4-3e1e-4bd6-b10e-ffd6e66bd3c6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

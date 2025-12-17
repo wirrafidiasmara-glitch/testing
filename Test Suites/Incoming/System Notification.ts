@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>System Notification</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f06aba31-4440-4d85-9ff4-2389753364d9</testSuiteGuid>
+   <testCaseLink>
+      <guid>24ec82a4-9441-4e29-b0c6-640691778333</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Notification/4. System Notification - Invalid Mandatory Field</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e5cba406-fc33-4119-a5dd-7977a2bf6d0b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Notification/4. System Notification - Invalid Mandatory Field</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e5cba406-fc33-4119-a5dd-7977a2bf6d0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>eventCode</value>
+         <variableId>6359e59a-9b51-4ae9-a3c1-dae95254dd7c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e5cba406-fc33-4119-a5dd-7977a2bf6d0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>eventParams</value>
+         <variableId>3ebe8998-ee54-45cc-9a5b-e6cc793b5d13</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e5cba406-fc33-4119-a5dd-7977a2bf6d0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>eventDescription</value>
+         <variableId>c605ae00-7d49-46b4-8840-29608448ad78</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e5cba406-fc33-4119-a5dd-7977a2bf6d0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>eventDateTime</value>
+         <variableId>bedd9255-31a7-4be7-b5b5-ee4bfc3a29b8</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
